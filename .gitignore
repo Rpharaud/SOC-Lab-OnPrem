@@ -1,0 +1,26 @@
+# Linux/macOS
+*.swp
+*.swo
+*.bak
+*.log
+*.pcap
+*.zip
+*.tar.gz
+
+# Sensitive files
+*.key
+*.pem
+*.crt
+*.conf
+*.ini
+*.yaml
+*.yml
+
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Logs directory (optional, unless you want to keep samples)
+logs/*
+!logs/README.md
