@@ -15,7 +15,7 @@ suricata-version: "7.0"
 vars:
   # more specific is better for alert accuracy and performance
   address-groups:
-    HOME_NET: "[192.168.0.0/16,10.0.0.0/8,172.16.0.0/12]"
+    HOME_NET: "[YOUR_IP_AND_SUBNET]"
     #HOME_NET: "[192.168.0.0/16]"
     #HOME_NET: "[10.0.0.0/8]"
     #HOME_NET: "[172.16.0.0/12]"
@@ -612,7 +612,7 @@ logging:
 
 # Linux high speed capture support
 af-packet:
-  - interface: enp0s1
+  - interface: your_interface
     # Number of receive threads. "auto" uses the number of cores
     #threads: auto
     # Default clusterid. AF_PACKET will load balance packets based on flow.

@@ -142,9 +142,9 @@ setup.template.name: "filebeat"
 setup.template.pattern: "filebeat-*"
 
 output.elasticsearch:
-  hosts: ["https://127.0.0.1:9200"]
+  hosts: ["https://your.elasticsearch.host:9200"]
   username: "elastic"
-  password: "elastic123"
+  password: "your_password"
   ssl.verification_mode: "none"
   index: "filebeat-%{[agent.version]}-%{+yyyy.MM.dd}"
 
