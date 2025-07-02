@@ -22,10 +22,7 @@ Establish a hardened, on-prem SOC using lightweight open-source tools for packet
 
 | File/Folder | Description |
 |-------------|-------------|
-| `arkime_config.ini` | Sanitized Arkime configuration |
-| `suricata_config.yaml` | Suricata IDS configuration file |
-| `filebeat_config.yml` | Filebeat input/output config for Suricata and Zeek |
-| `logs/` | Placeholder for lab-generated logs |
+| `configs` | Sanitized Arkime, Suricata, and Filebeat configuration |
 | `README.md` | This documentation file |
 
 ---
