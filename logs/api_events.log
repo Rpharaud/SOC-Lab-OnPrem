@@ -1,0 +1,1913 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.64.10:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /2629771292422225957 HTTP/1.1[0m" 404 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[31m[1m\x16\x03\x01\x02ò\x01\x00\x02î\x03\x01SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /WEB-INF/web.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET /?-s HTTP/1.1" 200 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[31m[1m\x16\x03\x02\x02ò\x01\x00\x02î\x03\x02SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /WEB-INF/applicationContext.xml HTTP/1.1[0m" 404 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[31m[1m\x16\x03\x03\x02ò\x01\x00\x02î\x03\x03SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[31m[1mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[31m[1mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[32mGET ?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 308 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET /?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mPOST /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mPOST /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /computeMetadata/v1/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /computeMetadata/v1/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /opc/v1/instance/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /opc/v1/instance/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /metadata/instance HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /elmah.axd HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /trace.axd HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.htaccess HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.env HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /lfm.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.idea/WebServers.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /config/databases.yml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /config/database.yml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.svn/entries HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.svn/wc.db HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /CVS/root HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /server-status HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /core HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sftp-config.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /WS_FTP.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /ws_ftp.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /WS_FTP.INI HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /filezilla.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemanager.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /FileZilla.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /winscp.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /WinSCP.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.DS_Store HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.php_cs.cache HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /DEADJOE HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sites/default/private/files/backup_migrate/scheduled/test.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /app/etc/local.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /server.key HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /privatekey.key HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /myserver.key HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /key.pem HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /id_rsa HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /id_dsa HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.ssh/id_rsa HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.ssh/id_dsa HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /adminer.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /vb_test.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /CHANGELOG.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sites/default/files/.ht.sqlite HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /composer.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /composer.lock HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /vim_settings.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /server-info HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /phpinfo.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /info.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /i.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /test.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /_wpeprivate/config.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /_framework/blazor.boot.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.hg HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /.bzr HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /._darcs HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /BitKeeper HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:39:51] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mGET /data HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 06:40:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.64.10:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:45] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:45] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /9187288530223310543 HTTP/1.1[0m" 404 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[31m[1m\x16\x03\x01\x02ò\x01\x00\x02î\x03\x01SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /WEB-INF/web.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET /?-s HTTP/1.1" 200 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[31m[1m\x16\x03\x02\x02ò\x01\x00\x02î\x03\x02SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /WEB-INF/applicationContext.xml HTTP/1.1[0m" 404 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[31m[1m\x16\x03\x03\x02ò\x01\x00\x02î\x03\x03SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[31m[1mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[31m[1mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[32mGET ?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 308 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mPOST /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mPOST /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET /?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /computeMetadata/v1/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /computeMetadata/v1/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /opc/v1/instance/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /opc/v1/instance/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /metadata/instance HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /elmah.axd HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /trace.axd HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.htaccess HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.env HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /lfm.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.idea/WebServers.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /config/databases.yml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /config/database.yml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.svn/entries HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.svn/wc.db HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /CVS/root HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /server-status HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /core HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sftp-config.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /WS_FTP.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /ws_ftp.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /WS_FTP.INI HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /filezilla.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemanager.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /FileZilla.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /winscp.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /WinSCP.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.DS_Store HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.php_cs.cache HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /DEADJOE HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sites/default/private/files/backup_migrate/scheduled/test.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /app/etc/local.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /server.key HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /privatekey.key HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /myserver.key HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /key.pem HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /id_rsa HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /id_dsa HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.ssh/id_rsa HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.ssh/id_dsa HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /adminer.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /vb_test.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /CHANGELOG.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sites/default/files/.ht.sqlite HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /composer.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /composer.lock HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /vim_settings.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /server-info HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /phpinfo.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /info.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /i.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /test.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /_wpeprivate/config.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /_framework/blazor.boot.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.hg HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /.bzr HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /._darcs HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /BitKeeper HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:47] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mGET /data HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Failed login attempt for None from 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:03:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:12] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:12] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /2500111199288568312 HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /WEB-INF/web.xml HTTP/1.1[0m" 404 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1m\x16\x03\x01\x02ò\x01\x00\x02î\x03\x01SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "GET /?-s HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /WEB-INF/applicationContext.xml HTTP/1.1[0m" 404 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1m\x16\x03\x02\x02ò\x01\x00\x02î\x03\x02SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1m\x16\x03\x03\x02ò\x01\x00\x02î\x03\x03SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[32mGET ?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 308 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /robots.txt?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /sitemap.xml?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mPOST /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "GET /?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mPOST /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /computeMetadata/v1/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /computeMetadata/v1/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /opc/v1/instance/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /opc/v1/instance/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /latest/meta-data/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /metadata/instance HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /robots.txt/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /sitemap.xml/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /elmah.axd HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /trace.axd HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /.htaccess HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /.env HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /lfm.php HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /.idea/WebServers.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /config/databases.yml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /config/database.yml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /.svn/entries HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /.svn/wc.db HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /CVS/root HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /server-status HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /core HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /sftp-config.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /WS_FTP.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /ws_ftp.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /WS_FTP.INI HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /filezilla.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /sitemanager.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /FileZilla.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /winscp.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /WinSCP.ini HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /.DS_Store HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /.php_cs.cache HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /DEADJOE HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /sites/default/private/files/backup_migrate/scheduled/test.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /app/etc/local.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /server.key HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /privatekey.key HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /myserver.key HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[33mGET /key.pem HTTP/1.1[0m" 404 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /id_rsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /id_dsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /.ssh/id_rsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /.ssh/id_dsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /adminer.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /vb_test.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /CHANGELOG.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sites/default/files/.ht.sqlite HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /composer.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /composer.lock HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /vim_settings.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /server-info HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /phpinfo.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /info.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /i.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /test.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /_wpeprivate/config.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /_framework/blazor.boot.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /.hg HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /.bzr HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /._darcs HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /BitKeeper HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:16] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mGET /data HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:26] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mOPTIONS / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:06:27] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:00] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:00] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:00] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /4769798118226615120 HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /WEB-INF/web.xml HTTP/1.1[0m" 429 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1m\x16\x03\x01\x02ò\x01\x00\x02î\x03\x01SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /WEB-INF/applicationContext.xml HTTP/1.1[0m" 429 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1m\x16\x03\x02\x02ò\x01\x00\x02î\x03\x02SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1m\x16\x03\x03\x02ò\x01\x00\x02î\x03\x03SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET ?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 429 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /robots.txt?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /sitemap.xml?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mPOST /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mPOST /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mPOST / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /latest/meta-data/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /latest/meta-data/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /computeMetadata/v1/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /computeMetadata/v1/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /opc/v1/instance/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /opc/v1/instance/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /latest/meta-data/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /latest/meta-data/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /metadata/instance HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /robots.txt/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /sitemap.xml/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /elmah.axd HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /trace.axd HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /.htaccess HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /.env HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /lfm.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /actuator/health HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /.idea/WebServers.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /actuator/health HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /config/databases.yml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /config/database.yml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /.git/config HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /.svn/entries HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /.svn/wc.db HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /CVS/root HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /server-status HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /core HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /sftp-config.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /WS_FTP.ini HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /ws_ftp.ini HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /WS_FTP.INI HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /filezilla.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /sitemanager.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /FileZilla.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /winscp.ini HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:02] "[31m[1mGET /WinSCP.ini HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /.DS_Store HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /.php_cs.cache HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /DEADJOE HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sites/default/private/files/backup_migrate/scheduled/test.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /app/etc/local.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /server.key HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /privatekey.key HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /myserver.key HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /key.pem HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /id_rsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /id_dsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /.ssh/id_rsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /.ssh/id_dsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /adminer.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /vb_test.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /CHANGELOG.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sites/default/files/.ht.sqlite HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /composer.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /composer.lock HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /vim_settings.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /server-info HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /phpinfo.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /info.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /i.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /test.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /_wpeprivate/config.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /_framework/blazor.boot.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /.hg HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /.bzr HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /._darcs HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /BitKeeper HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:03] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:12] "[31m[1mGET /data HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:12] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:12] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:12] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:12] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:12] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:12] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:12] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:12] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mOPTIONS / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:08:13] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:55] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:55] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:55] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /2731847189851720886 HTTP/1.1[0m" 429 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1m\x16\x03\x01\x02ò\x01\x00\x02î\x03\x01SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /WEB-INF/web.xml HTTP/1.1[0m" 429 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1m\x16\x03\x02\x02ò\x01\x00\x02î\x03\x02SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+ERROR:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] code 400, message Bad request version ('¼+\x92¨H\x97Ï½9\x04Ì\x16')
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1m\x16\x03\x03\x02ò\x01\x00\x02î\x03\x03SC[\x90\x9d\x9br\x0b¼\x0c¼+\x92¨H\x97Ï½9\x04Ì\x16[0m" 400 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /WEB-INF/applicationContext.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET ?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mPOST /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mPOST /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mPOST / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /latest/meta-data/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /latest/meta-data/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /computeMetadata/v1/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /computeMetadata/v1/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /opc/v1/instance/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /opc/v1/instance/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /latest/meta-data/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /latest/meta-data/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /metadata/instance HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+WARNING:root:Rate limit exceeded by 192.168.64.1
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml/ HTTP/1.1[0m" 429 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt/ HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /elmah.axd HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /trace.axd HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.htaccess HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.env HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /lfm.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /actuator/health HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /actuator/health HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.idea/WebServers.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /config/databases.yml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /config/database.yml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.git/config HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.svn/entries HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.svn/wc.db HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /CVS/root HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /server-status HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /core HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sftp-config.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /WS_FTP.ini HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /ws_ftp.ini HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /WS_FTP.INI HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /filezilla.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemanager.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /FileZilla.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /winscp.ini HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /WinSCP.ini HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.DS_Store HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.php_cs.cache HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /DEADJOE HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sites/default/private/files/backup_migrate/scheduled/test.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /app/etc/local.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /server.key HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /privatekey.key HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /myserver.key HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /key.pem HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /id_rsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /id_dsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.ssh/id_rsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.ssh/id_dsa HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /adminer.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /vb_test.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /CHANGELOG.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sites/default/files/.ht.sqlite HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /composer.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /composer.lock HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /vim_settings.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /server-info HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /phpinfo.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /info.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /i.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /test.php HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /_wpeprivate/config.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /_framework/blazor.boot.json HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.hg HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /.bzr HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /._darcs HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /BitKeeper HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /robots.txt HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:19:59] "[31m[1mGET /sitemap.xml HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET /data HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mOPTIONS / HTTP/1.1[0m" 429 -
+WARNING:root:Rate limit exceeded by 192.168.64.1
+INFO:werkzeug:192.168.64.1 - - [12/Jul/2025 07:20:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
