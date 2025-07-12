@@ -24,3 +24,10 @@ __pycache__/
 # Logs directory (optional, unless you want to keep samples)
 logs/*
 !logs/README.md
+venv/
+archive/
+pcap_samples/
+test_logs/
+suricata_output/
+py_scripts/
+*.pcap
