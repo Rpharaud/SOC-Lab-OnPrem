@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Sat Aug 16 18:32:29 2025 as: nmap -Pn -sV -&#45;script ssl-cert,ssl-enum-ciphers -p 443,8005,8443,9200 -iL targets.txt -oA tls_checks -->
+<nmaprun scanner="nmap" args="nmap -Pn -sV -&#45;script ssl-cert,ssl-enum-ciphers -p 443,8005,8443,9200 -iL targets.txt -oA tls_checks" start="1755369149" startstr="Sat Aug 16 18:32:29 2025" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="4" services="443,8005,8443,9200"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755369149" endtime="1755369171"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.64.10" addrtype="ipv4"/>
+<hostnames>
+<hostname name="regserver" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="closed" reason="reset" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8005"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mxi" servicefp="SF-Port8005-TCP:V=7.94SVN%T=SSL%I=7%D=8/16%Time=68A0CED3%P=aarch64-unknown-linux-gnu%r(GetRequest,F8,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x201;\x20mode=block\r\nWWW-Authenticate:\x20Digest\x20realm=\&quot;Moloch\&quot;,\x20nonce=\&quot;b6KuFlVtJHtqzbeEeUaQDDsIynGNw6ZQ\&quot;,\x20qop=\&quot;auth\&quot;\r\nDate:\x20Sat,\x2016\x20Aug\x202025\x2018:32:51\x20GMT\r\nConnection:\x20close\r\n\r\nUnauthorized&quot;)%r(HTTPOptions,F8,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x201;\x20mode=block\r\nWWW-Authenticate:\x20Digest\x20realm=\&quot;Moloch\&quot;,\x20nonce=\&quot;z4W9tsmujlvpW1pKVymgbiljqWYTVHzl\&quot;,\x20qop=\&quot;auth\&quot;\r\nDate:\x20Sat,\x2016\x20Aug\x202025\x2018:32:51\x20GMT\r\nConnection:\x20close\r\n\r\nUnauthorized&quot;)%r(RTSPRequest,F8,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x201;\x20mode=block\r\nWWW-Authenticate:\x20Digest\x20realm=\&quot;Moloch\&quot;,\x20nonce=\&quot;df6l7KPBmTKVshBvdzx9a6RZlzkb7MaE\&quot;,\x20qop=\&quot;auth\&quot;\r\nDate:\x20Sat,\x2016\x20Aug\x202025\x2018:32:51\x20GMT\r\nConnection:\x20close\r\n\r\nUnauthorized&quot;)%r(RPCCheck,2F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n&quot;)%r(DNSVersionBindReqTCP,2F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n&quot;)%r(DNSStatusRequestTCP,2F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n&quot;)%r(SSLSessionReq,2F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n&quot;)%r(SMBProgNeg,2F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n&quot;)%r(X11Probe,2F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n&quot;)%r(FourOhFourRequest,F8,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x201;\x20mode=block\r\nWWW-Authenticate:\x20Digest\x20realm=\&quot;Moloch\&quot;,\x20nonce=\&quot;vhWXgcDdF1ZyPCuwgkMyRGC9DlQDNuzO\&quot;,\x20qop=\&quot;auth\&quot;\r\nDate:\x20Sat,\x2016\x20Aug\x202025\x2018:32:51\x20GMT\r\nConnection:\x20close\r\n\r\nUnauthorized&quot;)%r(LPDString,2F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n&quot;)%r(TerminalServer,2F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n&quot;);" tunnel="ssl" method="table" conf="3"/><script id="ssl-cert" output="Subject: commonName=arkime.lab.local/organizationName=EnterpriseLab/stateOrProvinceName=Lab/countryName=US&#xa;Subject Alternative Name: DNS:arkime.lab.local, DNS:arkime, IP Address:192.168.0.50&#xa;Issuer: commonName=IntermediateCA/organizationName=EnterpriseLab/stateOrProvinceName=Lab/countryName=US&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2025-08-15T00:20:04&#xa;Not valid after:  2027-11-18T00:20:04&#xa;MD5:   56ef:4f8c:0011:dcfe:5dcd:a7c4:4b5a:65fc&#xa;SHA-1: 2bb5:6ccf:bde1:b1cb:ed93:5947:354b:22d1:d4fe:b0c2"><table key="subject">
+<elem key="commonName">arkime.lab.local</elem>
+<elem key="countryName">US</elem>
+<elem key="localityName">Enterprise</elem>
+<elem key="organizationName">EnterpriseLab</elem>
+<elem key="stateOrProvinceName">Lab</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">IntermediateCA</elem>
+<elem key="countryName">US</elem>
+<elem key="localityName">Enterprise</elem>
+<elem key="organizationName">EnterpriseLab</elem>
+<elem key="stateOrProvinceName">Lab</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">AFA86F701F6A4852511F591BA6279CF963D8998A2DD3CA7A6A14E39218AE78206371B7B46528B5ED6DA8343C96F173074EF913C5F2341E58DE60FBA81D555FDF6ADBE6D6ECCDE065D5164C8561807BD92617F56B9AE4DC94121557E3AB0A8E9763FA24702B7C187BC16D00702F04FAE1B6E07FF9CBF8DFA81374012C0DC5A0E37A86412944650CCE06480AD70C16B18CA041B5249693524F69DABC0DA6A3AEF8D6A7EA7A5571E161001C7797FECF99B2C7A22C0ED344FA1E28C895376AD2DD9ECCCC02F06224F6C157EF69D4DC7DAC93C387EC0FEBF70AE5FE9631ABCFD1AC32C8BCE9FC7983A0C019DCB637C8DC50DB38D054CEB96FE1983EB12B8364D55825</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:arkime.lab.local, DNS:arkime, IP Address:192.168.0.50</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">9A:46:74:DB:ED:C8:0B:E7:49:DE:BB:1C:02:21:E1:EF:DF:44:EA:DC</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">F3:BE:4C:FA:CD:90:94:E9:38:05:5B:23:54:FF:24:74:83:50:88:E1</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2025-08-15T00:20:04</elem>
+<elem key="notAfter">2027-11-18T00:20:04</elem>
+</table>
+<elem key="md5">56ef4f8c0011dcfe5dcda7c44b5a65fc</elem>
+<elem key="sha1">2bb56ccfbde1b1cbed935947354b22d1d4feb0c2</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIE+zCCAuOgAwIBAgIUT5PuV4Tnb9nLdPDzOGguKfMz77cwDQYJKoZIhvcNAQEL&#xa;BQAwYTELMAkGA1UEBhMCVVMxDDAKBgNVBAgMA0xhYjETMBEGA1UEBwwKRW50ZXJw&#xa;cmlzZTEWMBQGA1UECgwNRW50ZXJwcmlzZUxhYjEXMBUGA1UEAwwOSW50ZXJtZWRp&#xa;YXRlQ0EwHhcNMjUwODE1MDAyMDA0WhcNMjcxMTE4MDAyMDA0WjBjMQswCQYDVQQG&#xa;EwJVUzEMMAoGA1UECAwDTGFiMRMwEQYDVQQHDApFbnRlcnByaXNlMRYwFAYDVQQK&#xa;DA1FbnRlcnByaXNlTGFiMRkwFwYDVQQDDBBhcmtpbWUubGFiLmxvY2FsMIIBIjAN&#xa;BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr6hvcB9qSFJRH1kbpiec+WPYmYot&#xa;08p6ahTjkhiueCBjcbe0ZSi17W2oNDyW8XMHTvkTxfI0HljeYPuoHVVf32rb5tbs&#xa;zeBl1RZMhWGAe9kmF/VrmuTclBIVV+OrCo6XY/okcCt8GHvBbQBwLwT64bbgf/nL&#xa;+N+oE3QBLA3FoON6hkEpRGUMzgZICtcMFrGMoEG1JJaTUk9p2rwNpqOu+Nan6npV&#xa;ceFhABx3l/7PmbLHoiwO00T6HijIlTdq0t2ezMwC8GIk9sFX72nU3H2sk8OH7A/r&#xa;9wrl/pYxq8/RrDLIvOn8eYOgwBnctjfI3FDbONBUzrlv4Zg+sSuDZNVYJQIDAQAB&#xa;o4GoMIGlMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsG&#xa;AQUFBwMBBggrBgEFBQcDAjApBgNVHREEIjAgghBhcmtpbWUubGFiLmxvY2FsggZh&#xa;cmtpbWWHBMCoADIwHQYDVR0OBBYEFJpGdNvtyAvnSd67HAIh4e/fROrcMB8GA1Ud&#xa;IwQYMBaAFPO+TPrNkJTpOAVbI1T/JHSDUIjhMA0GCSqGSIb3DQEBCwUAA4ICAQCL&#xa;+SFmuBui769r1wpofawH5aTFa1Waa1SDxEiL6QDnGPCV16LmCVnTIU2VaJJLrgQJ&#xa;C/5wBZSfqYyBXMw50lTO+agjOW9vikVcqBOJjH3Z9xmJtQ5uSVQfzS50TV4PwAlZ&#xa;sk6XY/ahY94iX4AdKYDQpckv0MnxaLweDKca3zliODSDrB8mjjYuk6dG9lDSTIP2&#xa;LtqJcz5+OY2wGLmZqPzvPXu0YmsPVog28glr546rvqiJP+uIPBLfNwshOTWwhcAF&#xa;kY+iApr/sN0ifrDipU1ofaG15SEwknny9+svyaiQHr0fnUqVMhFfJ3HizUU14njk&#xa;GA4/ZD1M/UQliKDNPYjWRoMRRtNJZRtkZ/vpiHvclLU10oHsRQlrKqjZxR8kdvOn&#xa;B6jGl9pOnCb7du79bGyAF8BLg2QGYVaeErGlRf6PwLs0jkXyK/VPqBSWImRZjGL0&#xa;9H8aZJiffDUFIX0gYBk9bPi7xm2Z1un1sp2I4CMpuVdscX1p9XQJpZwyrTeja5iS&#xa;ZF89p0AyzCXa6czoU27am4YQaC+0z+Dh7/wIjMFhpQRx9wAcQ4HwTDqeugdhg18d&#xa;F60RB+vmJyRDN3XSqZuz1+a6i6hILZqlVKf4Hf1Yit0zB9hThrekl41CzE5voZ1B&#xa;5XyM0ViCbofGXRWAhm3VMd/k2XpacUg7rMTgJf+Uzg==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-enum-ciphers" output="&#xa;  TLSv1.2: &#xa;    ciphers: &#xa;      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (ecdh_x25519) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (ecdh_x25519) - A&#xa;      TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A&#xa;      TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384 (ecdh_x25519) - A&#xa;      TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256 (ecdh_x25519) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A&#xa;      TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_256_CCM_8 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_256_CCM (rsa 2048) - A&#xa;      TLS_RSA_WITH_ARIA_256_GCM_SHA384 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_128_CCM_8 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_128_CCM (rsa 2048) - A&#xa;      TLS_RSA_WITH_ARIA_128_GCM_SHA256 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A&#xa;    compressors: &#xa;      NULL&#xa;    cipher preference: server&#xa;  TLSv1.3: &#xa;    ciphers: &#xa;      TLS_AKE_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A&#xa;      TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A&#xa;      TLS_AKE_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A&#xa;    cipher preference: server&#xa;  least strength: A"><table key="TLSv1.2">
+<table key="ciphers">
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_GCM_SHA384</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_CCM_8</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_CCM</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_ARIA_256_GCM_SHA384</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_GCM_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_CCM_8</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_CCM</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_ARIA_128_GCM_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_CBC_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_CBC_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_CBC_SHA</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 2048</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_CBC_SHA</elem>
+<elem key="strength">A</elem>
+</table>
+</table>
+<table key="compressors">
+<elem>NULL</elem>
+</table>
+<elem key="cipher preference">server</elem>
+</table>
+<table key="TLSv1.3">
+<table key="ciphers">
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_AKE_WITH_AES_256_GCM_SHA384</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_AKE_WITH_CHACHA20_POLY1305_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">ecdh_x25519</elem>
+<elem key="name">TLS_AKE_WITH_AES_128_GCM_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+</table>
+<elem key="cipher preference">server</elem>
+</table>
+<elem key="least strength">A</elem>
+</script><script id="fingerprint-strings" output="&#xa;  DNSStatusRequestTCP, DNSVersionBindReqTCP, LPDString, RPCCheck, SMBProgNeg, SSLSessionReq, TerminalServer, X11Probe: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Connection: close&#xa;  FourOhFourRequest: &#xa;    HTTP/1.1 401 Unauthorized&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1; mode=block&#xa;    WWW-Authenticate: Digest realm=&quot;Moloch&quot;, nonce=&quot;vhWXgcDdF1ZyPCuwgkMyRGC9DlQDNuzO&quot;, qop=&quot;auth&quot;&#xa;    Date: Sat, 16 Aug 2025 18:32:51 GMT&#xa;    Connection: close&#xa;    Unauthorized&#xa;  GetRequest: &#xa;    HTTP/1.1 401 Unauthorized&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1; mode=block&#xa;    WWW-Authenticate: Digest realm=&quot;Moloch&quot;, nonce=&quot;b6KuFlVtJHtqzbeEeUaQDDsIynGNw6ZQ&quot;, qop=&quot;auth&quot;&#xa;    Date: Sat, 16 Aug 2025 18:32:51 GMT&#xa;    Connection: close&#xa;    Unauthorized&#xa;  HTTPOptions: &#xa;    HTTP/1.1 401 Unauthorized&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1; mode=block&#xa;    WWW-Authenticate: Digest realm=&quot;Moloch&quot;, nonce=&quot;z4W9tsmujlvpW1pKVymgbiljqWYTVHzl&quot;, qop=&quot;auth&quot;&#xa;    Date: Sat, 16 Aug 2025 18:32:51 GMT&#xa;    Connection: close&#xa;    Unauthorized&#xa;  RTSPRequest: &#xa;    HTTP/1.1 401 Unauthorized&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1; mode=block&#xa;    WWW-Authenticate: Digest realm=&quot;Moloch&quot;, nonce=&quot;df6l7KPBmTKVshBvdzx9a6RZlzkb7MaE&quot;, qop=&quot;auth&quot;&#xa;    Date: Sat, 16 Aug 2025 18:32:51 GMT&#xa;    Connection: close&#xa;    Unauthorized"><elem key="DNSStatusRequestTCP, DNSVersionBindReqTCP, LPDString, RPCCheck, SMBProgNeg, SSLSessionReq, TerminalServer, X11Probe">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Connection: close</elem>
+<elem key="FourOhFourRequest">&#xa;    HTTP/1.1 401 Unauthorized&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1; mode=block&#xa;    WWW-Authenticate: Digest realm=&quot;Moloch&quot;, nonce=&quot;vhWXgcDdF1ZyPCuwgkMyRGC9DlQDNuzO&quot;, qop=&quot;auth&quot;&#xa;    Date: Sat, 16 Aug 2025 18:32:51 GMT&#xa;    Connection: close&#xa;    Unauthorized</elem>
+<elem key="GetRequest">&#xa;    HTTP/1.1 401 Unauthorized&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1; mode=block&#xa;    WWW-Authenticate: Digest realm=&quot;Moloch&quot;, nonce=&quot;b6KuFlVtJHtqzbeEeUaQDDsIynGNw6ZQ&quot;, qop=&quot;auth&quot;&#xa;    Date: Sat, 16 Aug 2025 18:32:51 GMT&#xa;    Connection: close&#xa;    Unauthorized</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.1 401 Unauthorized&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1; mode=block&#xa;    WWW-Authenticate: Digest realm=&quot;Moloch&quot;, nonce=&quot;z4W9tsmujlvpW1pKVymgbiljqWYTVHzl&quot;, qop=&quot;auth&quot;&#xa;    Date: Sat, 16 Aug 2025 18:32:51 GMT&#xa;    Connection: close&#xa;    Unauthorized</elem>
+<elem key="RTSPRequest">&#xa;    HTTP/1.1 401 Unauthorized&#xa;    X-Frame-Options: DENY&#xa;    X-XSS-Protection: 1; mode=block&#xa;    WWW-Authenticate: Digest realm=&quot;Moloch&quot;, nonce=&quot;df6l7KPBmTKVshBvdzx9a6RZlzkb7MaE&quot;, qop=&quot;auth&quot;&#xa;    Date: Sat, 16 Aug 2025 18:32:51 GMT&#xa;    Connection: close&#xa;    Unauthorized</elem>
+</script></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="64"/><service name="https-alt" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9200"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rtsp" servicefp="SF-Port9200-TCP:V=7.94SVN%T=SSL%I=7%D=8/16%Time=68A0CED2%P=aarch64-unknown-linux-gnu%r(GetRequest,29C,&quot;HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenticate:\x20Basic\x20realm=\&quot;security\&quot;\x20charset=\&quot;UTF-8\&quot;\r\nWWW-Authenticate:\x20Bearer\x20realm=\&quot;security\&quot;\r\nWWW-Authenticate:\x20ApiKey\r\ncontent-type:\x20application/json\r\ncontent-length:\x20459\r\n\r\n{\&quot;error\&quot;:{\&quot;root_cause\&quot;:\[{\&quot;type\&quot;:\&quot;security_exception\&quot;,\&quot;reason\&quot;:\&quot;missing\x20authentication\x20credentials\x20for\x20REST\x20request\x20\[/\]\&quot;,\&quot;header\&quot;:{\&quot;WWW-Authenticate\&quot;:\[\&quot;Basic\x20realm=\\\&quot;security\\\&quot;\x20charset=\\\&quot;UTF-8\\\&quot;\&quot;,\&quot;Bearer\x20realm=\\\&quot;security\\\&quot;\&quot;,\&quot;ApiKey\&quot;\]}}\],\&quot;type\&quot;:\&quot;security_exception\&quot;,\&quot;reason\&quot;:\&quot;missing\x20authentication\x20credentials\x20for\x20REST\x20request\x20\[/\]\&quot;,\&quot;header\&quot;:{\&quot;WWW-Authenticate\&quot;:\[\&quot;Basic\x20realm=\\\&quot;security\\\&quot;\x20charset=\\\&quot;UTF-8\\\&quot;\&quot;,\&quot;Bearer\x20realm=\\\&quot;security\\\&quot;\&quot;,\&quot;ApiKey\&quot;\]}},\&quot;status\&quot;:401}&quot;)%r(HTTPOptions,89,&quot;HTTP/1\.0\x20200\x20OK\r\nAllow:\x20GET,DELETE,HEAD\r\nX-elastic-product:\x20Elasticsearch\r\ncontent-type:\x20text/plain;\x20charset=UTF-8\r\ncontent-length:\x200\r\n\r\n&quot;)%r(RTSPRequest,150,&quot;RTSP/1\.0\x20400\x20Bad\x20Request\r\nX-elastic-product:\x20Elasticsearch\r\ncontent-type:\x20application/json\r\ncontent-length:\x20221\r\n\r\n{\&quot;error\&quot;:{\&quot;root_cause\&quot;:\[{\&quot;type\&quot;:\&quot;illegal_argument_exception\&quot;,\&quot;reason\&quot;:\&quot;Unexpected\x20http\x20protocol\x20version:\x20RTSP/1\.0\&quot;}\],\&quot;type\&quot;:\&quot;illegal_argument_exception\&quot;,\&quot;reason\&quot;:\&quot;Unexpected\x20http\x20protocol\x20version:\x20RTSP/1\.0\&quot;},\&quot;status\&quot;:400}&quot;)%r(FourOhFourRequest,2E2,&quot;HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenticate:\x20Basic\x20realm=\&quot;security\&quot;\x20charset=\&quot;UTF-8\&quot;\r\nWWW-Authenticate:\x20Bearer\x20realm=\&quot;security\&quot;\r\nWWW-Authenticate:\x20ApiKey\r\ncontent-type:\x20application/json\r\ncontent-length:\x20529\r\n\r\n{\&quot;error\&quot;:{\&quot;root_cause\&quot;:\[{\&quot;type\&quot;:\&quot;security_exception\&quot;,\&quot;reason\&quot;:\&quot;missing\x20authentication\x20credentials\x20for\x20REST\x20request\x20\[/nice%20ports%2C/Tri%6Eity\.txt%2ebak\]\&quot;,\&quot;header\&quot;:{\&quot;WWW-Authenticate\&quot;:\[\&quot;Basic\x20realm=\\\&quot;security\\\&quot;\x20charset=\\\&quot;UTF-8\\\&quot;\&quot;,\&quot;Bearer\x20realm=\\\&quot;security\\\&quot;\&quot;,\&quot;ApiKey\&quot;\]}}\],\&quot;type\&quot;:\&quot;security_exception\&quot;,\&quot;reason\&quot;:\&quot;missing\x20authentication\x20credentials\x20for\x20REST\x20request\x20\[/nice%20ports%2C/Tri%6Eity\.txt%2ebak\]\&quot;,\&quot;header\&quot;:{\&quot;WWW-Authenticate\&quot;:\[\&quot;Basic\x20realm=\\\&quot;security\\\&quot;\x20charset=\\\&quot;UTF-8\\\&quot;\&quot;,\&quot;Bearer\x20realm=\\\&quot;security\\\&quot;\&quot;,\&quot;ApiKey\&quot;\]}},\&quot;status\&quot;:401}&quot;);" tunnel="ssl" method="probed" conf="10"/><script id="ssl-cert" output="Subject: commonName=regserver&#xa;Subject Alternative Name: IP Address:FD79:B690:3D58:5DA1:4023:94FF:FE4A:762, IP Address:192.168.64.10, IP Address:0:0:0:0:0:0:0:1, IP Address:127.0.0.1, IP Address:FE80:0:0:0:4023:94FF:FE4A:762, DNS:localhost, DNS:regserver&#xa;Issuer: commonName=Elasticsearch security auto-configuration HTTP CA&#xa;Public Key type: rsa&#xa;Public Key bits: 4096&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2025-06-22T03:45:40&#xa;Not valid after:  2027-06-22T03:45:40&#xa;MD5:   6ca6:9f2a:ea4b:9508:f8db:065d:4ce5:872d&#xa;SHA-1: b7a8:6dad:0079:59a1:f49a:1ae7:7e2a:34b5:9212:6a9b"><table key="subject">
+<elem key="commonName">regserver</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">Elasticsearch security auto-configuration HTTP CA</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">4096</elem>
+<elem key="modulus">F42C6ADCF0ED05CD6BEF3EAB7F794887AA4FD854AC2BBB248C57CAF66F071C5358C7DA6BEFBF220F61BF3312B35E7C433202F1A41A4D6772E3A30E3CDA3D3F853A1A5A7D5D1C1CFD525D3E2D3438D6468DB8F8E7F4E96EB7B6CF0C1E1FF4E494EB13FD97109B0138A81E5679B33E3612B51E7D92C34750CAD05E74A53E78E13CA40DBB3F94AAEFC4E799286E619B8BA2CF0F33C569477200A940FA274B8921A747CDFA81BBDBD1EA487AC59A162525F39F69F561121A59F1C20C22993AFE8D644FCED4D3D4B6A2DD7290DC6279F4E26C8DEECBC086830A9C67CE1BDC45CB9FD9F5B69D72A949DDBF991A2587FB1CEC6A9BD7367AE41AF7847939C1FCE6940A5C89C013DCDB305FD7F8FFB7156A7DB6161D8073A5C47AD58490AE941C906E2FE10C514E81D007658A6995A6F4AB318F180F3AE7D3E46DD755EC268C9E56CDBBC00C44582551014D5B0AB3B7F072FC849F2C1B605AF4F175FAE8F21255E71A6B307A14CCC4188E882B4D0672A68D5A76DC2EB8485C3F15BB528A660DA5731B8AFC80E4ADA79908C8B3433C6B4B9A06E44F87CFEB3EF0313E709A21C2C0D0A9BAE8A55C62A39F176EC77B7471F54061A17DEB024BF6FADBE97E092D44567294A48625F0B552AFD92FCB4ED643BA7B1373003BF120CF97005CCF4A93781B4F1796D8D66097B3516A9D7A02DC3857C8B75EAC1FBCDF6465E4EE8C3900BDA0A379B2FF</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">57:E7:F1:68:C6:63:37:18:14:5C:E5:30:A6:AD:AC:43:15:CD:63:F9</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">F1:3D:E8:C9:6C:C5:D8:4A:A7:FB:AC:5C:1D:D7:8F:8F:9C:E6:04:F5</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">IP Address:FD79:B690:3D58:5DA1:4023:94FF:FE4A:762, IP Address:192.168.64.10, IP Address:0:0:0:0:0:0:0:1, IP Address:127.0.0.1, IP Address:FE80:0:0:0:4023:94FF:FE4A:762, DNS:localhost, DNS:regserver</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2025-06-22T03:45:40</elem>
+<elem key="notAfter">2027-06-22T03:45:40</elem>
+</table>
+<elem key="md5">6ca69f2aea4b9508f8db065d4ce5872d</elem>
+<elem key="sha1">b7a86dad007959a1f49a1ae77e2a34b592126a9b</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIFpjCCA46gAwIBAgIVANEUyrtNaU2L4/SEJR65LBSY3neUMA0GCSqGSIb3DQEB&#xa;CwUAMDwxOjA4BgNVBAMTMUVsYXN0aWNzZWFyY2ggc2VjdXJpdHkgYXV0by1jb25m&#xa;aWd1cmF0aW9uIEhUVFAgQ0EwHhcNMjUwNjIyMDM0NTQwWhcNMjcwNjIyMDM0NTQw&#xa;WjAUMRIwEAYDVQQDEwlyZWdzZXJ2ZXIwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAw&#xa;ggIKAoICAQD0LGrc8O0FzWvvPqt/eUiHqk/YVKwruySMV8r2bwccU1jH2mvvvyIP&#xa;Yb8zErNefEMyAvGkGk1ncuOjDjzaPT+FOhpafV0cHP1SXT4tNDjWRo24+Of06W63&#xa;ts8MHh/05JTrE/2XEJsBOKgeVnmzPjYStR59ksNHUMrQXnSlPnjhPKQNuz+Uqu/E&#xa;55kobmGbi6LPDzPFaUdyAKlA+idLiSGnR836gbvb0epIesWaFiUl859p9WESGlnx&#xa;wgwimTr+jWRPztTT1Lai3XKQ3GJ59OJsje7LwIaDCpxnzhvcRcuf2fW2nXKpSd2/&#xa;mRolh/sc7Gqb1zZ65Br3hHk5wfzmlApcicAT3NswX9f4/7cVan22Fh2Ac6XEetWE&#xa;kK6UHJBuL+EMUU6B0AdlimmVpvSrMY8YDzrn0+Rt11XsJoyeVs27wAxEWCVRAU1b&#xa;CrO38HL8hJ8sG2Ba9PF1+ujyElXnGmswehTMxBiOiCtNBnKmjVp23C64SFw/FbtS&#xa;imYNpXMbivyA5K2nmQjIs0M8a0uaBuRPh8/rPvAxPnCaIcLA0Km66KVcYqOfF27H&#xa;e3Rx9UBhoX3rAkv2+tvpfgktRFZylKSGJfC1Uq/ZL8tO1kO6exNzADvxIM+XAFzP&#xa;SpN4G08XltjWYJezUWqdegLcOFfIt16sH7zfZGXk7ow5AL2go3my/wIDAQABo4HG&#xa;MIHDMB0GA1UdDgQWBBRX5/FoxmM3GBRc5TCmraxDFc1j+TAfBgNVHSMEGDAWgBTx&#xa;PejJbMXYSqf7rFwd14+PnOYE9TBhBgNVHREEWjBYhxD9ebaQPVhdoUAjlP/+Sgdi&#xa;hwTAqEAKhxAAAAAAAAAAAAAAAAAAAAABhwR/AAABhxD+gAAAAAAAAEAjlP/+Sgdi&#xa;gglsb2NhbGhvc3SCCXJlZ3NlcnZlcjAJBgNVHRMEAjAAMBMGA1UdJQQMMAoGCCsG&#xa;AQUFBwMBMA0GCSqGSIb3DQEBCwUAA4ICAQB6zkdGss2M3RkEU+roqLvT9wEAkSI7&#xa;mF0Xs2TYiFOKPbUmGRr+mt6kGAlTCcG7t72Zsrldj1EB183k1Ll3YdppVLLSTXs/&#xa;Vu/E7n32jCCf8D775uptnksVJwmSwfEUl76JQtAwFeMR0DAl7Odoa9v4nnNVzfEi&#xa;RXBWKWcxRzdOvUIA7eRygnCAqhPn12qnD5UBUXCCyZ/eIm81aHSP9/9ZOnxrN8Ky&#xa;OK8nckcvyv4yUaSlzUCK8gMR66TanYiDHPTXLr8+iptj91efhO79zXBNd8TVrSvp&#xa;4uNluM27PL13JOvIsiuz58xuFFciP9eBSCy/URqx7k7GUrNouyPC7ijo0tG8Nyay&#xa;1oEHfcTqyg8jqVPZkWoGu4s04PYzhzGUtUyK7iveUr/iieAKqIJ9vQon0Klj4Bq6&#xa;wAlXu41eFg9UeHQ37eWamazHI0MBeXWh10kc7dRbVSZvgz7fDDWukhMvE31o7AiE&#xa;nm2SCsSWOzZLd6yfXt1PORgZCJFDaWa5C19TnaNr3qsrMUo3ZQ9QNd3xrDy9qmsY&#xa;31u411Zl4FPISjSygUi57o9Ji7HRHozBeaOEGqy5CMXWgB6mz5EChUdCdzeSja7s&#xa;ln9/eLTkONKbjd8sSUO2+M0Z1sLm7Fx7POYb1FQqrc07p6PScKmZAzT7Oa33szFG&#xa;eNqKIAY4JjitVg==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-enum-ciphers" output="&#xa;  TLSv1.2: &#xa;    ciphers: &#xa;      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A&#xa;      TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (secp256r1) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (secp256r1) - A&#xa;      TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 4096) - A&#xa;      TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 4096) - A&#xa;      TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 4096) - A&#xa;      TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 4096) - A&#xa;      TLS_RSA_WITH_AES_256_CBC_SHA (rsa 4096) - A&#xa;      TLS_RSA_WITH_AES_128_CBC_SHA (rsa 4096) - A&#xa;    compressors: &#xa;      NULL&#xa;    cipher preference: server&#xa;    warnings: &#xa;      Key exchange (secp256r1) of lower strength than certificate key&#xa;  TLSv1.3: &#xa;    ciphers: &#xa;      TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A&#xa;      TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A&#xa;      TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A&#xa;    cipher preference: server&#xa;  least strength: A"><table key="TLSv1.2">
+<table key="ciphers">
+<table>
+<elem key="kex_info">secp256r1</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">secp256r1</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">secp256r1</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">secp256r1</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">secp256r1</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">secp256r1</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">secp256r1</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 4096</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_GCM_SHA384</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 4096</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_GCM_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 4096</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_CBC_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 4096</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_CBC_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 4096</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_CBC_SHA</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">rsa 4096</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_CBC_SHA</elem>
+<elem key="strength">A</elem>
+</table>
+</table>
+<table key="compressors">
+<elem>NULL</elem>
+</table>
+<elem key="cipher preference">server</elem>
+<table key="warnings">
+<elem>Key exchange (secp256r1) of lower strength than certificate key</elem>
+</table>
+</table>
+<table key="TLSv1.3">
+<table key="ciphers">
+<table>
+<elem key="kex_info">secp256r1</elem>
+<elem key="name">TLS_AKE_WITH_AES_256_GCM_SHA384</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">secp256r1</elem>
+<elem key="name">TLS_AKE_WITH_AES_128_GCM_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+<table>
+<elem key="kex_info">secp256r1</elem>
+<elem key="name">TLS_AKE_WITH_CHACHA20_POLY1305_SHA256</elem>
+<elem key="strength">A</elem>
+</table>
+</table>
+<elem key="cipher preference">server</elem>
+</table>
+<elem key="least strength">A</elem>
+</script><script id="fingerprint-strings" output="&#xa;  FourOhFourRequest: &#xa;    HTTP/1.0 401 Unauthorized&#xa;    WWW-Authenticate: Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&#xa;    WWW-Authenticate: Bearer realm=&quot;security&quot;&#xa;    WWW-Authenticate: ApiKey&#xa;    content-type: application/json&#xa;    content-length: 529&#xa;    {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/nice%20ports%2C/Tri%6Eity.txt%2ebak]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}}],&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/nice%20ports%2C/Tri%6Eity.txt%2ebak]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}},&quot;status&quot;:401}&#xa;  GetRequest: &#xa;    HTTP/1.0 401 Unauthorized&#xa;    WWW-Authenticate: Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&#xa;    WWW-Authenticate: Bearer realm=&quot;security&quot;&#xa;    WWW-Authenticate: ApiKey&#xa;    content-type: application/json&#xa;    content-length: 459&#xa;    {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}}],&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}},&quot;status&quot;:401}&#xa;  HTTPOptions: &#xa;    HTTP/1.0 200 OK&#xa;    Allow: GET,DELETE,HEAD&#xa;    X-elastic-product: Elasticsearch&#xa;    content-type: text/plain; charset=UTF-8&#xa;    content-length: 0&#xa;  RTSPRequest: &#xa;    RTSP/1.0 400 Bad Request&#xa;    X-elastic-product: Elasticsearch&#xa;    content-type: application/json&#xa;    content-length: 221&#xa;    {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;illegal_argument_exception&quot;,&quot;reason&quot;:&quot;Unexpected http protocol version: RTSP/1.0&quot;}],&quot;type&quot;:&quot;illegal_argument_exception&quot;,&quot;reason&quot;:&quot;Unexpected http protocol version: RTSP/1.0&quot;},&quot;status&quot;:400}"><elem key="FourOhFourRequest">&#xa;    HTTP/1.0 401 Unauthorized&#xa;    WWW-Authenticate: Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&#xa;    WWW-Authenticate: Bearer realm=&quot;security&quot;&#xa;    WWW-Authenticate: ApiKey&#xa;    content-type: application/json&#xa;    content-length: 529&#xa;    {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/nice%20ports%2C/Tri%6Eity.txt%2ebak]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}}],&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/nice%20ports%2C/Tri%6Eity.txt%2ebak]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}},&quot;status&quot;:401}</elem>
+<elem key="GetRequest">&#xa;    HTTP/1.0 401 Unauthorized&#xa;    WWW-Authenticate: Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&#xa;    WWW-Authenticate: Bearer realm=&quot;security&quot;&#xa;    WWW-Authenticate: ApiKey&#xa;    content-type: application/json&#xa;    content-length: 459&#xa;    {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}}],&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}},&quot;status&quot;:401}</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.0 200 OK&#xa;    Allow: GET,DELETE,HEAD&#xa;    X-elastic-product: Elasticsearch&#xa;    content-type: text/plain; charset=UTF-8&#xa;    content-length: 0</elem>
+<elem key="RTSPRequest">&#xa;    RTSP/1.0 400 Bad Request&#xa;    X-elastic-product: Elasticsearch&#xa;    content-type: application/json&#xa;    content-length: 221&#xa;    {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;illegal_argument_exception&quot;,&quot;reason&quot;:&quot;Unexpected http protocol version: RTSP/1.0&quot;}],&quot;type&quot;:&quot;illegal_argument_exception&quot;,&quot;reason&quot;:&quot;Unexpected http protocol version: RTSP/1.0&quot;},&quot;status&quot;:400}</elem>
+</script></port>
+</ports>
+<times srtt="12" rttvar="2114" to="100000"/>
+</host>
+<runstats><finished time="1755369171" timestr="Sat Aug 16 18:32:51 2025" summary="Nmap done at Sat Aug 16 18:32:51 2025; 1 IP address (1 host up) scanned in 22.44 seconds" elapsed="22.44" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

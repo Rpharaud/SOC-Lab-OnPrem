@@ -1,0 +1,30 @@
+{
+  "target": "fe80::4023:94ff:fe4a:762",
+  "type": "Domain",
+  "threat_score": 0,
+  "context_score": 2,
+  "osint_score": 0,
+  "feeds": {
+    "meta": {
+      "target": "fe80::4023:94ff:fe4a:762"
+    },
+    "WHOIS": {
+      "registrar": null,
+      "org": null,
+      "creation_date": "None",
+      "expiration_date": "None",
+      "country": null
+    },
+    "SSL": [],
+    "PassiveDNS": {},
+    "CampaignTags": [],
+    "WalletTags": [],
+    "Web3": {},
+    "OSINT_SCORE": 0,
+    "OSINT_TAGS": []
+  },
+  "tags": [
+    "no-registrar"
+  ],
+  "label": null
+}

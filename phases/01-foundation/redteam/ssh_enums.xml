@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Sat Aug 16 18:26:58 2025 as: nmap -Pn -p 22 -sV -&#45;script ssh2-enum-algos -iL targets.txt -oA ssh_enums -->
+<nmaprun scanner="nmap" args="nmap -Pn -p 22 -sV -&#45;script ssh2-enum-algos -iL targets.txt -oA ssh_enums" start="1755368818" startstr="Sat Aug 16 18:26:58 2025" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="22"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<runstats><finished time="1755368818" timestr="Sat Aug 16 18:26:58 2025" summary="Nmap done at Sat Aug 16 18:26:58 2025; 0 IP addresses (0 hosts up) scanned in 0.05 seconds" elapsed="0.05" exit="success"/><hosts up="0" down="0" total="0"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Sat Aug 16 18:32:04 2025 as: nmap -Pn -T3 --top-ports 1000 -sS -iL targets.txt -oA tcp_top1k
+Host: 192.168.64.10 (regserver)	Status: Up
+Host: 192.168.64.10 (regserver)	Ports: 22/open/tcp//ssh///, 25/open/tcp//smtp///, 80/open/tcp//http///, 9200/open/tcp//wap-wsp///	Ignored State: closed (996)
+# Nmap done at Sat Aug 16 18:32:05 2025 -- 1 IP address (1 host up) scanned in 0.05 seconds

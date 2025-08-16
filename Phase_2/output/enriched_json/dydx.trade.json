@@ -1,0 +1,97 @@
+{
+  "target": "dydx.trade",
+  "type": "Domain",
+  "threat_score": 0,
+  "context_score": 5,
+  "osint_score": 0,
+  "feeds": {
+    "meta": {
+      "target": "dydx.trade"
+    },
+    "WHOIS": {
+      "registrar": "Cloudflare, Inc.",
+      "org": [
+        "dYdX Operations Services Ltd.",
+        "DATA REDACTED"
+      ],
+      "creation_date": "2022-07-01 03:30:13",
+      "expiration_date": "2026-07-01 03:30:13",
+      "country": "KY"
+    },
+    "SSL": [],
+    "PassiveDNS": {
+      "records": [
+        {
+          "address": "18.238.238.109",
+          "first": "2024-10-18T11:33:18",
+          "last": "2024-10-18T11:33:18",
+          "hostname": "status.dydx.trade",
+          "record_type": "A",
+          "indicator_link": "/indicator/hostname/status.dydx.trade",
+          "flag_url": "assets/images/flags/us.png",
+          "flag_title": "United States",
+          "asset_type": "hostname",
+          "asn": "ASNone "
+        },
+        {
+          "address": "18.238.238.127",
+          "first": "2024-10-18T11:33:18",
+          "last": "2024-10-18T11:33:18",
+          "hostname": "status.dydx.trade",
+          "record_type": "A",
+          "indicator_link": "/indicator/hostname/status.dydx.trade",
+          "flag_url": "assets/images/flags/us.png",
+          "flag_title": "United States",
+          "asset_type": "hostname",
+          "asn": "ASNone "
+        },
+        {
+          "address": "18.238.238.51",
+          "first": "2024-10-18T11:33:18",
+          "last": "2024-10-18T11:33:18",
+          "hostname": "status.dydx.trade",
+          "record_type": "A",
+          "indicator_link": "/indicator/hostname/status.dydx.trade",
+          "flag_url": "assets/images/flags/us.png",
+          "flag_title": "United States",
+          "asset_type": "hostname",
+          "asn": "ASNone "
+        },
+        {
+          "address": "18.238.238.100",
+          "first": "2024-10-18T11:33:18",
+          "last": "2024-10-18T11:33:18",
+          "hostname": "status.dydx.trade",
+          "record_type": "A",
+          "indicator_link": "/indicator/hostname/status.dydx.trade",
+          "flag_url": "assets/images/flags/us.png",
+          "flag_title": "United States",
+          "asset_type": "hostname",
+          "asn": "ASNone "
+        },
+        {
+          "address": "2606:4700::6812:1845",
+          "first": "2024-09-13T06:49:50",
+          "last": "2024-09-13T06:51:03",
+          "hostname": "privy.dydx.trade",
+          "record_type": "AAAA",
+          "indicator_link": "/indicator/hostname/privy.dydx.trade",
+          "flag_url": "assets/images/flags/us.png",
+          "flag_title": "United States",
+          "asset_type": "hostname",
+          "asn": "AS13335 cloudflare"
+        }
+      ]
+    },
+    "CampaignTags": [],
+    "WalletTags": [],
+    "Web3": {},
+    "OSINT_SCORE": 0,
+    "OSINT_TAGS": []
+  },
+  "tags": [
+    "CRYPTO_DAPP",
+    "passive-dns-present"
+  ],
+  "label": "CRYPTO_DAPP"
+}

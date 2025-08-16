@@ -1,0 +1,2 @@
+2060345CD6E80000:error:10080002:BIO routines:BIO_lookup_ex:system lib:../crypto/bio/bio_addr.c:738:Temporary failure in name resolution
+connect:errno=11

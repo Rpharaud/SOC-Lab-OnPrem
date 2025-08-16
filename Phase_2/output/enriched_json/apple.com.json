@@ -1,0 +1,30 @@
+{
+  "target": "apple.com",
+  "type": "Domain",
+  "threat_score": 0,
+  "context_score": 0,
+  "osint_score": 0,
+  "feeds": {
+    "meta": {
+      "target": "apple.com"
+    },
+    "WHOIS": {
+      "registrar": "NOM-IQ Ltd dba Com Laude",
+      "org": "Apple Inc.",
+      "creation_date": "1987-02-19 05:00:00",
+      "expiration_date": "2026-02-20 05:00:00",
+      "country": "US"
+    },
+    "SSL": [],
+    "PassiveDNS": {},
+    "CampaignTags": [],
+    "WalletTags": [],
+    "Web3": {},
+    "OSINT_SCORE": 0,
+    "OSINT_TAGS": []
+  },
+  "tags": [
+    "KNOWN_GOOD"
+  ],
+  "label": "KNOWN_GOOD"
+}

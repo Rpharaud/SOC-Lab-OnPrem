@@ -1,0 +1,26 @@
+{
+  "target": "paypal-login-verification.net",
+  "type": "Domain",
+  "threat_score": 5,
+  "context_score": 2,
+  "osint_score": 0,
+  "feeds": {
+    "meta": {
+      "target": "paypal-login-verification.net"
+    },
+    "WHOIS": {},
+    "PassiveDNS": {},
+    "SSL": [],
+    "CampaignTags": [],
+    "Web3": {
+      "web3_score": 0,
+      "web3_tags": []
+    },
+    "OSINT_SCORE": 0,
+    "OSINT_TAGS": []
+  },
+  "tags": [
+    "no-registrar"
+  ],
+  "label": "FAKE_PAYPAL"
+}

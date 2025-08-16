@@ -1,0 +1,2 @@
+# Nmap 7.94SVN scan initiated Sat Aug 16 18:26:58 2025 as: nmap -Pn -p 22 -sV --script ssh2-enum-algos -iL targets.txt -oA ssh_enums
+# Nmap done at Sat Aug 16 18:26:58 2025 -- 0 IP addresses (0 hosts up) scanned in 0.05 seconds

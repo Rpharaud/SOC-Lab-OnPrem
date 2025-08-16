@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Sat Aug 16 18:32:05 2025 as: nmap -Pn -T3 -sS -sV -sC -O -&#45;version-light -iL targets.txt -oA tcp_services -->
+<nmaprun scanner="nmap" args="nmap -Pn -T3 -sS -sV -sC -O -&#45;version-light -iL targets.txt -oA tcp_services" start="1755369125" startstr="Sat Aug 16 18:32:05 2025" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755369125" endtime="1755369149"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.64.10" addrtype="ipv4"/>
+<hostnames>
+<hostname name="regserver" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="996">
+<extrareasons reason="reset" count="996" proto="tcp" ports="1,3-4,6-7,9,13,17,19-21,23-24,26,30,32-33,37,42-43,49,53,70,79,81-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="9.6p1 Ubuntu 3ubuntu13.12" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:9.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  256 75:41:24:61:aa:43:7c:a0:65:70:8c:6a:0d:01:70:80 (ECDSA)&#xa;  256 2a:51:75:40:07:64:b9:c0:60:37:f9:9e:cf:e6:2d:16 (ED25519)"><table>
+<elem key="bits">256</elem>
+<elem key="fingerprint">75412461aa437ca065708c6a0d017080</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKhprAH8adsxYRcQIakhGN8CUmuz6BNYU876WpjSmYjbU4E2WIwDIXcPahpHQntN+vV+P71XuzcOPawHQ44H1OY=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="fingerprint">2a5175400764b9c06037f99ecfe62d16</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIBzkX8Ay32SpJxbuZQhSskHRD3V2FK2O2j5xtgRR5hX0</elem>
+<elem key="type">ssh-ed25519</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="smtp" product="Postfix smtpd" hostname=" regserver.mynetworksettings.com" method="probed" conf="10"><cpe>cpe:/a:postfix:postfix</cpe></service><script id="smtp-commands" output="regserver.mynetworksettings.com, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8, CHUNKING"/><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="ssl-cert" output="Subject: commonName=regserver&#xa;Subject Alternative Name: DNS:regserver&#xa;Not valid before: 2025-06-21T17:00:27&#xa;Not valid after:  2035-06-19T17:00:27"><table key="subject">
+<elem key="commonName">regserver</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">regserver</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">AFDFD8319D3670CE339162DFD7866256E79585A7B744862FCCE6CD37DA2C43F959417BDCD69BC97B458BB97EA8AD9150ECDF2138D9190E9387362C38630E9C986E96E9E5BD525850E6D8DE3A882D74976774F235DE66E1A70534C531CDCFB9E1196B5D23685C94A85524B25FB262B88A437037D39196844129DD48663A8A73C58009CD1CF5FD7FA43A8248BD93F5295B1B24D26B7FAC01CBABC2966E428B186C5FA756F2F1331207B7CBA43A8A21221046BB58AAE7C8C01FECFFD1965C89EE092A18F34DADB5BF8BDE49C070A0A5FD939423308D3104AFF39C668F0C0E5DF37BEBA2F9DBF73E54E08985B6A8C41F95A47567273404E26A946D025EE0AB9117DB</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:regserver</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">66:93:98:71:7D:D6:08:4F:88:4F:96:42:95:AF:DE:C2:D2:B1:23:E4</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2025-06-21T17:00:27</elem>
+<elem key="notAfter">2035-06-19T17:00:27</elem>
+</table>
+<elem key="md5">b811885f35c7d3970b98029850a39a3c</elem>
+<elem key="sha1">c7d668feba4d96fe602f2c480a3d057d28a732d3</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC+DCCAeCgAwIBAgIUbbWcydKrwYQjJaE7RwMRf3v52sowDQYJKoZIhvcNAQEL&#xa;BQAwFDESMBAGA1UEAwwJcmVnc2VydmVyMB4XDTI1MDYyMTE3MDAyN1oXDTM1MDYx&#xa;OTE3MDAyN1owFDESMBAGA1UEAwwJcmVnc2VydmVyMIIBIjANBgkqhkiG9w0BAQEF&#xa;AAOCAQ8AMIIBCgKCAQEAr9/YMZ02cM4zkWLf14ZiVueVhae3RIYvzObNN9osQ/lZ&#xa;QXvc1pvJe0WLuX6orZFQ7N8hONkZDpOHNiw4Yw6cmG6W6eW9UlhQ5tjeOogtdJdn&#xa;dPI13mbhpwU0xTHNz7nhGWtdI2hclKhVJLJfsmK4ikNwN9ORloRBKd1IZjqKc8WA&#xa;Cc0c9f1/pDqCSL2T9SlbGyTSa3+sAcurwpZuQosYbF+nVvLxMxIHt8ukOoohIhBG&#xa;u1iq58jAH+z/0ZZcie4JKhjzTa21v4veScBwoKX9k5QjMI0xBK/znGaPDA5d83vr&#xa;ovnb9z5U4ImFtqjEH5WkdWcnNATiapRtAl7gq5EX2wIDAQABo0IwQDAJBgNVHRME&#xa;AjAAMBQGA1UdEQQNMAuCCXJlZ3NlcnZlcjAdBgNVHQ4EFgQUZpOYcX3WCE+IT5ZC&#xa;la/ewtKxI+QwDQYJKoZIhvcNAQELBQADggEBAHgZIzU/ShzGssNs685VM3LoKNMF&#xa;fj+bqxv6ofhelfpL9UuY0/U1hWKujKbJJfwoc3H0K/tHPby8p7o6n1iK2rcBhBRq&#xa;XYhTbRTiOfojDKEddaNMvSlhLOejGCV7Pje09YD1AlcCl/cCfjTS58U6+9T8usGq&#xa;qwrE/ItVhhm7M1A8iqZASEAMe4kClRqt0egedTJjNHU5Dz9CI/s1hzlUfiTN/ScT&#xa;mGtTZszrWvzHnv7Ot5cKfDFXbh6CPicx4eC4sqJqoeFJCmpZbrW2XU6oaDFr5nsD&#xa;ivUyv3lme+zTxQ3GDeUIYDhYlGvtXlnnFRxpY9ASUK7MWS0+dqIKushQNao=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.58" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.58</cpe></service><script id="http-title" output="Apache2 Ubuntu Default Page: It works"><elem key="title">Apache2 Ubuntu Default Page: It works</elem>
+</script></port>
+<port protocol="tcp" portid="9200"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="wap-wsp" servicefp="SF-Port9200-TCP:V=7.94SVN%T=SSL%I=2%D=8/16%Time=68A0CEBA%P=aarch64-unknown-linux-gnu%r(GetRequest,29C,&quot;HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenticate:\x20Basic\x20realm=\&quot;security\&quot;\x20charset=\&quot;UTF-8\&quot;\r\nWWW-Authenticate:\x20Bearer\x20realm=\&quot;security\&quot;\r\nWWW-Authenticate:\x20ApiKey\r\ncontent-type:\x20application/json\r\ncontent-length:\x20459\r\n\r\n{\&quot;error\&quot;:{\&quot;root_cause\&quot;:\[{\&quot;type\&quot;:\&quot;security_exception\&quot;,\&quot;reason\&quot;:\&quot;missing\x20authentication\x20credentials\x20for\x20REST\x20request\x20\[/\]\&quot;,\&quot;header\&quot;:{\&quot;WWW-Authenticate\&quot;:\[\&quot;Basic\x20realm=\\\&quot;security\\\&quot;\x20charset=\\\&quot;UTF-8\\\&quot;\&quot;,\&quot;Bearer\x20realm=\\\&quot;security\\\&quot;\&quot;,\&quot;ApiKey\&quot;\]}}\],\&quot;type\&quot;:\&quot;security_exception\&quot;,\&quot;reason\&quot;:\&quot;missing\x20authentication\x20credentials\x20for\x20REST\x20request\x20\[/\]\&quot;,\&quot;header\&quot;:{\&quot;WWW-Authenticate\&quot;:\[\&quot;Basic\x20realm=\\\&quot;security\\\&quot;\x20charset=\\\&quot;UTF-8\\\&quot;\&quot;,\&quot;Bearer\x20realm=\\\&quot;security\\\&quot;\&quot;,\&quot;ApiKey\&quot;\]}},\&quot;status\&quot;:401}&quot;)%r(SSLSessionReq,13E,&quot;HTTP/1\.0\x20400\x20Bad\x20Request\r\nX-elastic-product:\x20Elasticsearch\r\ncontent-type:\x20application/json\r\ncontent-length:\x20203\r\n\r\n{\&quot;error\&quot;:{\&quot;root_cause\&quot;:\[{\&quot;type\&quot;:\&quot;illegal_argument_exception\&quot;,\&quot;reason\&quot;:\&quot;text\x20is\x20empty\x20\(possibly\x20HTTP/0\.9\)\&quot;}\],\&quot;type\&quot;:\&quot;illegal_argument_exception\&quot;,\&quot;reason\&quot;:\&quot;text\x20is\x20empty\x20\(possibly\x20HTTP/0\.9\)\&quot;},\&quot;status\&quot;:400}&quot;)%r(TLSSessionReq,13E,&quot;HTTP/1\.0\x20400\x20Bad\x20Request\r\nX-elastic-product:\x20Elasticsearch\r\ncontent-type:\x20application/json\r\ncontent-length:\x20203\r\n\r\n{\&quot;error\&quot;:{\&quot;root_cause\&quot;:\[{\&quot;type\&quot;:\&quot;illegal_argument_exception\&quot;,\&quot;reason\&quot;:\&quot;text\x20is\x20empty\x20\(possibly\x20HTTP/0\.9\)\&quot;}\],\&quot;type\&quot;:\&quot;illegal_argument_exception\&quot;,\&quot;reason\&quot;:\&quot;text\x20is\x20empty\x20\(possibly\x20HTTP/0\.9\)\&quot;},\&quot;status\&quot;:400}&quot;);" tunnel="ssl" method="table" conf="3"/><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="ssl-cert" output="Subject: commonName=regserver&#xa;Subject Alternative Name: IP Address:FD79:B690:3D58:5DA1:4023:94FF:FE4A:762, IP Address:192.168.64.10, IP Address:0:0:0:0:0:0:0:1, IP Address:127.0.0.1, IP Address:FE80:0:0:0:4023:94FF:FE4A:762, DNS:localhost, DNS:regserver&#xa;Not valid before: 2025-06-22T03:45:40&#xa;Not valid after:  2027-06-22T03:45:40"><table key="subject">
+<elem key="commonName">regserver</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">Elasticsearch security auto-configuration HTTP CA</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">4096</elem>
+<elem key="modulus">F42C6ADCF0ED05CD6BEF3EAB7F794887AA4FD854AC2BBB248C57CAF66F071C5358C7DA6BEFBF220F61BF3312B35E7C433202F1A41A4D6772E3A30E3CDA3D3F853A1A5A7D5D1C1CFD525D3E2D3438D6468DB8F8E7F4E96EB7B6CF0C1E1FF4E494EB13FD97109B0138A81E5679B33E3612B51E7D92C34750CAD05E74A53E78E13CA40DBB3F94AAEFC4E799286E619B8BA2CF0F33C569477200A940FA274B8921A747CDFA81BBDBD1EA487AC59A162525F39F69F561121A59F1C20C22993AFE8D644FCED4D3D4B6A2DD7290DC6279F4E26C8DEECBC086830A9C67CE1BDC45CB9FD9F5B69D72A949DDBF991A2587FB1CEC6A9BD7367AE41AF7847939C1FCE6940A5C89C013DCDB305FD7F8FFB7156A7DB6161D8073A5C47AD58490AE941C906E2FE10C514E81D007658A6995A6F4AB318F180F3AE7D3E46DD755EC268C9E56CDBBC00C44582551014D5B0AB3B7F072FC849F2C1B605AF4F175FAE8F21255E71A6B307A14CCC4188E882B4D0672A68D5A76DC2EB8485C3F15BB528A660DA5731B8AFC80E4ADA79908C8B3433C6B4B9A06E44F87CFEB3EF0313E709A21C2C0D0A9BAE8A55C62A39F176EC77B7471F54061A17DEB024BF6FADBE97E092D44567294A48625F0B552AFD92FCB4ED643BA7B1373003BF120CF97005CCF4A93781B4F1796D8D66097B3516A9D7A02DC3857C8B75EAC1FBCDF6465E4EE8C3900BDA0A379B2FF</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">57:E7:F1:68:C6:63:37:18:14:5C:E5:30:A6:AD:AC:43:15:CD:63:F9</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">F1:3D:E8:C9:6C:C5:D8:4A:A7:FB:AC:5C:1D:D7:8F:8F:9C:E6:04:F5</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">IP Address:FD79:B690:3D58:5DA1:4023:94FF:FE4A:762, IP Address:192.168.64.10, IP Address:0:0:0:0:0:0:0:1, IP Address:127.0.0.1, IP Address:FE80:0:0:0:4023:94FF:FE4A:762, DNS:localhost, DNS:regserver</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2025-06-22T03:45:40</elem>
+<elem key="notAfter">2027-06-22T03:45:40</elem>
+</table>
+<elem key="md5">6ca69f2aea4b9508f8db065d4ce5872d</elem>
+<elem key="sha1">b7a86dad007959a1f49a1ae77e2a34b592126a9b</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIFpjCCA46gAwIBAgIVANEUyrtNaU2L4/SEJR65LBSY3neUMA0GCSqGSIb3DQEB&#xa;CwUAMDwxOjA4BgNVBAMTMUVsYXN0aWNzZWFyY2ggc2VjdXJpdHkgYXV0by1jb25m&#xa;aWd1cmF0aW9uIEhUVFAgQ0EwHhcNMjUwNjIyMDM0NTQwWhcNMjcwNjIyMDM0NTQw&#xa;WjAUMRIwEAYDVQQDEwlyZWdzZXJ2ZXIwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAw&#xa;ggIKAoICAQD0LGrc8O0FzWvvPqt/eUiHqk/YVKwruySMV8r2bwccU1jH2mvvvyIP&#xa;Yb8zErNefEMyAvGkGk1ncuOjDjzaPT+FOhpafV0cHP1SXT4tNDjWRo24+Of06W63&#xa;ts8MHh/05JTrE/2XEJsBOKgeVnmzPjYStR59ksNHUMrQXnSlPnjhPKQNuz+Uqu/E&#xa;55kobmGbi6LPDzPFaUdyAKlA+idLiSGnR836gbvb0epIesWaFiUl859p9WESGlnx&#xa;wgwimTr+jWRPztTT1Lai3XKQ3GJ59OJsje7LwIaDCpxnzhvcRcuf2fW2nXKpSd2/&#xa;mRolh/sc7Gqb1zZ65Br3hHk5wfzmlApcicAT3NswX9f4/7cVan22Fh2Ac6XEetWE&#xa;kK6UHJBuL+EMUU6B0AdlimmVpvSrMY8YDzrn0+Rt11XsJoyeVs27wAxEWCVRAU1b&#xa;CrO38HL8hJ8sG2Ba9PF1+ujyElXnGmswehTMxBiOiCtNBnKmjVp23C64SFw/FbtS&#xa;imYNpXMbivyA5K2nmQjIs0M8a0uaBuRPh8/rPvAxPnCaIcLA0Km66KVcYqOfF27H&#xa;e3Rx9UBhoX3rAkv2+tvpfgktRFZylKSGJfC1Uq/ZL8tO1kO6exNzADvxIM+XAFzP&#xa;SpN4G08XltjWYJezUWqdegLcOFfIt16sH7zfZGXk7ow5AL2go3my/wIDAQABo4HG&#xa;MIHDMB0GA1UdDgQWBBRX5/FoxmM3GBRc5TCmraxDFc1j+TAfBgNVHSMEGDAWgBTx&#xa;PejJbMXYSqf7rFwd14+PnOYE9TBhBgNVHREEWjBYhxD9ebaQPVhdoUAjlP/+Sgdi&#xa;hwTAqEAKhxAAAAAAAAAAAAAAAAAAAAABhwR/AAABhxD+gAAAAAAAAEAjlP/+Sgdi&#xa;gglsb2NhbGhvc3SCCXJlZ3NlcnZlcjAJBgNVHRMEAjAAMBMGA1UdJQQMMAoGCCsG&#xa;AQUFBwMBMA0GCSqGSIb3DQEBCwUAA4ICAQB6zkdGss2M3RkEU+roqLvT9wEAkSI7&#xa;mF0Xs2TYiFOKPbUmGRr+mt6kGAlTCcG7t72Zsrldj1EB183k1Ll3YdppVLLSTXs/&#xa;Vu/E7n32jCCf8D775uptnksVJwmSwfEUl76JQtAwFeMR0DAl7Odoa9v4nnNVzfEi&#xa;RXBWKWcxRzdOvUIA7eRygnCAqhPn12qnD5UBUXCCyZ/eIm81aHSP9/9ZOnxrN8Ky&#xa;OK8nckcvyv4yUaSlzUCK8gMR66TanYiDHPTXLr8+iptj91efhO79zXBNd8TVrSvp&#xa;4uNluM27PL13JOvIsiuz58xuFFciP9eBSCy/URqx7k7GUrNouyPC7ijo0tG8Nyay&#xa;1oEHfcTqyg8jqVPZkWoGu4s04PYzhzGUtUyK7iveUr/iieAKqIJ9vQon0Klj4Bq6&#xa;wAlXu41eFg9UeHQ37eWamazHI0MBeXWh10kc7dRbVSZvgz7fDDWukhMvE31o7AiE&#xa;nm2SCsSWOzZLd6yfXt1PORgZCJFDaWa5C19TnaNr3qsrMUo3ZQ9QNd3xrDy9qmsY&#xa;31u411Zl4FPISjSygUi57o9Ji7HRHozBeaOEGqy5CMXWgB6mz5EChUdCdzeSja7s&#xa;ln9/eLTkONKbjd8sSUO2+M0Z1sLm7Fx7POYb1FQqrc07p6PScKmZAzT7Oa33szFG&#xa;eNqKIAY4JjitVg==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="fingerprint-strings" output="&#xa;  GetRequest: &#xa;    HTTP/1.0 401 Unauthorized&#xa;    WWW-Authenticate: Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&#xa;    WWW-Authenticate: Bearer realm=&quot;security&quot;&#xa;    WWW-Authenticate: ApiKey&#xa;    content-type: application/json&#xa;    content-length: 459&#xa;    {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}}],&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}},&quot;status&quot;:401}&#xa;  SSLSessionReq, TLSSessionReq: &#xa;    HTTP/1.0 400 Bad Request&#xa;    X-elastic-product: Elasticsearch&#xa;    content-type: application/json&#xa;    content-length: 203&#xa;    {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;illegal_argument_exception&quot;,&quot;reason&quot;:&quot;text is empty (possibly HTTP/0.9)&quot;}],&quot;type&quot;:&quot;illegal_argument_exception&quot;,&quot;reason&quot;:&quot;text is empty (possibly HTTP/0.9)&quot;},&quot;status&quot;:400}"><elem key="GetRequest">&#xa;    HTTP/1.0 401 Unauthorized&#xa;    WWW-Authenticate: Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&#xa;    WWW-Authenticate: Bearer realm=&quot;security&quot;&#xa;    WWW-Authenticate: ApiKey&#xa;    content-type: application/json&#xa;    content-length: 459&#xa;    {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}}],&quot;type&quot;:&quot;security_exception&quot;,&quot;reason&quot;:&quot;missing authentication credentials for REST request [/]&quot;,&quot;header&quot;:{&quot;WWW-Authenticate&quot;:[&quot;Basic realm=&quot;security&quot; charset=&quot;UTF-8&quot;&quot;,&quot;Bearer realm=&quot;security&quot;&quot;,&quot;ApiKey&quot;]}},&quot;status&quot;:401}</elem>
+<elem key="SSLSessionReq, TLSSessionReq">&#xa;    HTTP/1.0 400 Bad Request&#xa;    X-elastic-product: Elasticsearch&#xa;    content-type: application/json&#xa;    content-length: 203&#xa;    {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;illegal_argument_exception&quot;,&quot;reason&quot;:&quot;text is empty (possibly HTTP/0.9)&quot;}],&quot;type&quot;:&quot;illegal_argument_exception&quot;,&quot;reason&quot;:&quot;text is empty (possibly HTTP/0.9)&quot;},&quot;status&quot;:400}</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="30852"/>
+<osmatch name="Linux 2.6.32" accuracy="100" line="55742">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3693321" lastboot="Sat Jul  5 00:37:08 2025"/>
+<distance value="0"/>
+<tcpsequence index="257" difficulty="Good luck!" values="7E21CE0A,856B81E9,3D424D9C,60300365,707B6250,AB1655B8"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="DC23905A,DC2390C0,DC239124,DC239189,DC2391F1,DC239257"/>
+<times srtt="11" rttvar="5" to="100000"/>
+</host>
+<runstats><finished time="1755369149" timestr="Sat Aug 16 18:32:29 2025" summary="Nmap done at Sat Aug 16 18:32:29 2025; 1 IP address (1 host up) scanned in 24.29 seconds" elapsed="24.29" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

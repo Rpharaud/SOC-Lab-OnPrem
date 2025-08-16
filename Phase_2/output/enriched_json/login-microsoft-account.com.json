@@ -1,0 +1,25 @@
+{
+  "target": "login-microsoft-account.com",
+  "type": "Domain",
+  "threat_score": 5,
+  "context_score": 2,
+  "osint_score": 0,
+  "feeds": {
+    "meta": {
+      "target": "login-microsoft-account.com"
+    },
+    "WHOIS": {},
+    "SSL": [],
+    "PassiveDNS": {},
+    "CampaignTags": [],
+    "WalletTags": [],
+    "Web3": {},
+    "OSINT_SCORE": 0,
+    "OSINT_TAGS": []
+  },
+  "tags": [
+    "no-registrar",
+    "FAKE_MICROSOFT"
+  ],
+  "label": "FAKE_MICROSOFT"
+}

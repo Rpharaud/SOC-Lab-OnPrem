@@ -1,0 +1,75 @@
+# Nmap 7.94SVN scan initiated Sat Aug 16 18:32:05 2025 as: nmap -Pn -T3 -sS -sV -sC -O --version-light -iL targets.txt -oA tcp_services
+Nmap scan report for regserver (192.168.64.10)
+Host is up (0.000011s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE      VERSION
+22/tcp   open  ssh          OpenSSH 9.6p1 Ubuntu 3ubuntu13.12 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 75:41:24:61:aa:43:7c:a0:65:70:8c:6a:0d:01:70:80 (ECDSA)
+|_  256 2a:51:75:40:07:64:b9:c0:60:37:f9:9e:cf:e6:2d:16 (ED25519)
+25/tcp   open  smtp         Postfix smtpd
+|_smtp-commands: regserver.mynetworksettings.com, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8, CHUNKING
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=regserver
+| Subject Alternative Name: DNS:regserver
+| Not valid before: 2025-06-21T17:00:27
+|_Not valid after:  2035-06-19T17:00:27
+80/tcp   open  http         Apache httpd 2.4.58 ((Ubuntu))
+|_http-title: Apache2 Ubuntu Default Page: It works
+9200/tcp open  ssl/wap-wsp?
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=regserver
+| Subject Alternative Name: IP Address:FD79:B690:3D58:5DA1:4023:94FF:FE4A:762, IP Address:192.168.64.10, IP Address:0:0:0:0:0:0:0:1, IP Address:127.0.0.1, IP Address:FE80:0:0:0:4023:94FF:FE4A:762, DNS:localhost, DNS:regserver
+| Not valid before: 2025-06-22T03:45:40
+|_Not valid after:  2027-06-22T03:45:40
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 401 Unauthorized
+|     WWW-Authenticate: Basic realm="security" charset="UTF-8"
+|     WWW-Authenticate: Bearer realm="security"
+|     WWW-Authenticate: ApiKey
+|     content-type: application/json
+|     content-length: 459
+|     {"error":{"root_cause":[{"type":"security_exception","reason":"missing authentication credentials for REST request [/]","header":{"WWW-Authenticate":["Basic realm="security" charset="UTF-8"","Bearer realm="security"","ApiKey"]}}],"type":"security_exception","reason":"missing authentication credentials for REST request [/]","header":{"WWW-Authenticate":["Basic realm="security" charset="UTF-8"","Bearer realm="security"","ApiKey"]}},"status":401}
+|   SSLSessionReq, TLSSessionReq: 
+|     HTTP/1.0 400 Bad Request
+|     X-elastic-product: Elasticsearch
+|     content-type: application/json
+|     content-length: 203
+|_    {"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"text is empty (possibly HTTP/0.9)"}],"type":"illegal_argument_exception","reason":"text is empty (possibly HTTP/0.9)"},"status":400}
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9200-TCP:V=7.94SVN%T=SSL%I=2%D=8/16%Time=68A0CEBA%P=aarch64-unknown
+SF:-linux-gnu%r(GetRequest,29C,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Au
+SF:thenticate:\x20Basic\x20realm=\"security\"\x20charset=\"UTF-8\"\r\nWWW-
+SF:Authenticate:\x20Bearer\x20realm=\"security\"\r\nWWW-Authenticate:\x20A
+SF:piKey\r\ncontent-type:\x20application/json\r\ncontent-length:\x20459\r\
+SF:n\r\n{\"error\":{\"root_cause\":\[{\"type\":\"security_exception\",\"re
+SF:ason\":\"missing\x20authentication\x20credentials\x20for\x20REST\x20req
+SF:uest\x20\[/\]\",\"header\":{\"WWW-Authenticate\":\[\"Basic\x20realm=\\\
+SF:"security\\\"\x20charset=\\\"UTF-8\\\"\",\"Bearer\x20realm=\\\"security
+SF:\\\"\",\"ApiKey\"\]}}\],\"type\":\"security_exception\",\"reason\":\"mi
+SF:ssing\x20authentication\x20credentials\x20for\x20REST\x20request\x20\[/
+SF:\]\",\"header\":{\"WWW-Authenticate\":\[\"Basic\x20realm=\\\"security\\
+SF:\"\x20charset=\\\"UTF-8\\\"\",\"Bearer\x20realm=\\\"security\\\"\",\"Ap
+SF:iKey\"\]}},\"status\":401}")%r(SSLSessionReq,13E,"HTTP/1\.0\x20400\x20B
+SF:ad\x20Request\r\nX-elastic-product:\x20Elasticsearch\r\ncontent-type:\x
+SF:20application/json\r\ncontent-length:\x20203\r\n\r\n{\"error\":{\"root_
+SF:cause\":\[{\"type\":\"illegal_argument_exception\",\"reason\":\"text\x2
+SF:0is\x20empty\x20\(possibly\x20HTTP/0\.9\)\"}\],\"type\":\"illegal_argum
+SF:ent_exception\",\"reason\":\"text\x20is\x20empty\x20\(possibly\x20HTTP/
+SF:0\.9\)\"},\"status\":400}")%r(TLSSessionReq,13E,"HTTP/1\.0\x20400\x20Ba
+SF:d\x20Request\r\nX-elastic-product:\x20Elasticsearch\r\ncontent-type:\x2
+SF:0application/json\r\ncontent-length:\x20203\r\n\r\n{\"error\":{\"root_c
+SF:ause\":\[{\"type\":\"illegal_argument_exception\",\"reason\":\"text\x20
+SF:is\x20empty\x20\(possibly\x20HTTP/0\.9\)\"}\],\"type\":\"illegal_argume
+SF:nt_exception\",\"reason\":\"text\x20is\x20empty\x20\(possibly\x20HTTP/0
+SF:\.9\)\"},\"status\":400}");
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32
+OS details: Linux 2.6.32
+Network Distance: 0 hops
+Service Info: Host:  regserver.mynetworksettings.com; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Aug 16 18:32:29 2025 -- 1 IP address (1 host up) scanned in 24.29 seconds

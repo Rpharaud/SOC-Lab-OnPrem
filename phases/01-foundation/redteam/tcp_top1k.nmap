@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Sat Aug 16 18:32:04 2025 as: nmap -Pn -T3 --top-ports 1000 -sS -iL targets.txt -oA tcp_top1k
+Nmap scan report for regserver (192.168.64.10)
+Host is up (0.0000010s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+9200/tcp open  wap-wsp
+
+# Nmap done at Sat Aug 16 18:32:05 2025 -- 1 IP address (1 host up) scanned in 0.05 seconds
