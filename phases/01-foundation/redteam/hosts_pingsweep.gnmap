@@ -1,4 +1,0 @@
-# Nmap 7.94SVN scan initiated Sat Aug 16 18:19:48 2025 as: nmap -sn -oA hosts_pingsweep 192.168.64.0/24
-Host: 192.168.64.1 (_gateway)	Status: Up
-Host: 192.168.64.10 (regserver)	Status: Up
-# Nmap done at Sat Aug 16 18:19:51 2025 -- 256 IP addresses (2 hosts up) scanned in 2.94 seconds

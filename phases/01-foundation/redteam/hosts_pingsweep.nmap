@@ -1,6 +1,0 @@
-# Nmap 7.94SVN scan initiated Sat Aug 16 18:19:48 2025 as: nmap -sn -oA hosts_pingsweep 192.168.64.0/24
-Nmap scan report for _gateway (192.168.64.1)
-Host is up (0.00053s latency).
-Nmap scan report for regserver (192.168.64.10)
-Host is up (0.00011s latency).
-# Nmap done at Sat Aug 16 18:19:51 2025 -- 256 IP addresses (2 hosts up) scanned in 2.94 seconds

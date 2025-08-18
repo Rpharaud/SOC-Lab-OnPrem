@@ -1,3 +1,0 @@
-# Nmap 7.94SVN scan initiated Sat Aug 16 18:26:50 2025 as: nmap -Pn -p 9200 -sV --script http-title,http-headers -iL targets.txt -oA es_probe
-WARNING: No targets were specified, so 0 hosts scanned.
-# Nmap done at Sat Aug 16 18:26:50 2025 -- 0 IP addresses (0 hosts up) scanned in 0.06 seconds

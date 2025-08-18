@@ -1,0 +1,7 @@
+type, value, label
+ip, 45.83.66.132, known_bad
+domain, login-microsoft-account.com, known_bad
+domain, uniswap-claim-now.eth, synthetic_web3_phish
+ip, 185.220.101.1, tor_exit
+domain, metamask-airdrop.com, synthetic_web3_phish
+domain, support-googlelogin.com, known_bad
