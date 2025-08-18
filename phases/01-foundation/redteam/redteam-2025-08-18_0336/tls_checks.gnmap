@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Mon Aug 18 03:39:41 2025 as: nmap -Pn -sV --script ssl-cert,ssl-enum-ciphers -p 443,8005,8443,9200 -iL targets.txt -oA tls_checks
+Host: 192.168.64.10 (regserver)	Status: Up
+Host: 192.168.64.10 (regserver)	Ports: 443/closed/tcp//https///, 8005/open/tcp//ssl|mxi?///, 8443/closed/tcp//https-alt///, 9200/open/tcp//ssl|rtsp///
+# Nmap done at Mon Aug 18 03:40:04 2025 -- 1 IP address (1 host up) scanned in 22.42 seconds

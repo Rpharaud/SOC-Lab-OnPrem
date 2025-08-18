@@ -1,0 +1,36 @@
+# ==== Core Python utilities ====
+requests>=2.31.0
+python-dotenv>=1.0.0
+pytz>=2024.1
+
+# ==== Kafka ingestion (Phase 3) ====
+kafka-python>=2.0.2
+aiokafka>=0.8.0
+
+# ==== Data processing ====
+pandas>=2.2.0
+numpy>=1.26.0
+ujson>=5.9.0
+
+# ==== Logging / debugging ====
+loguru>=0.7.2
+tqdm>=4.66.1
+
+# ==== Threat intelligence / enrichment ====
+dnspython>=2.4.2
+whois>=0.9.27
+python-dateutil>=2.9.0.post0
+
+# ==== Web scraping (Phase 2.7 optional modules) ====
+beautifulsoup4>=4.12.2
+lxml>=5.1.0
+
+# ==== SSL / Crypto checks ====
+cryptography>=42.0.0
+pyOpenSSL>=24.0.0
+
+# ==== JSON parsing and validation ====
+jsonschema>=4.21.1
+
+# ==== Optional async HTTP client (faster enrichment) ====
+aiohttp>=3.9.3

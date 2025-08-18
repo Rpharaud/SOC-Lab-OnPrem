@@ -1,0 +1,6 @@
+title = "Lab Gitleaks"
+[allowlist]
+description = "Allow common false positives"
+regexes = [
+  '''(?i)example|dummy|changeme''',
+]
