@@ -1,0 +1,4 @@
+risk_id,description,likelihood,impact,owner,treatment,status,notes
+R-01,Elasticsearch reachable on 9200 from lab subnet,Medium,Medium,DevSecOps,Restrict to loopback or proxy,Open,Add iptables or Nginx auth
+R-02,SSH password auth enabled,Low,High,SOC,Enforce keys-only,Open,Update sshd_config + CI check
+R-03,Arkime exposed without reverse proxy,Higher,Medium,DevSecOps,Place behind Nginx:443,Planned,Enforce TLS1.3+HSTS

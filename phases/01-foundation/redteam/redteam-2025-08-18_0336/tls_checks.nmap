@@ -1,0 +1,230 @@
+# Nmap 7.94SVN scan initiated Mon Aug 18 03:39:41 2025 as: nmap -Pn -sV --script ssl-cert,ssl-enum-ciphers -p 443,8005,8443,9200 -iL targets.txt -oA tls_checks
+WARNING: Service 192.168.64.10:9200 had already soft-matched rtsp, but now soft-matched sip; ignoring second value
+Nmap scan report for regserver (192.168.64.10)
+Host is up (0.000013s latency).
+
+PORT     STATE  SERVICE   VERSION
+443/tcp  closed https
+8005/tcp open   ssl/mxi?
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CCM_8 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CCM (rsa 2048) - A
+|       TLS_RSA_WITH_ARIA_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CCM_8 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CCM (rsa 2048) - A
+|       TLS_RSA_WITH_ARIA_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|     cipher preference: server
+|_  least strength: A
+| ssl-cert: Subject: commonName=arkime.lab.local/organizationName=EnterpriseLab/stateOrProvinceName=Lab/countryName=US
+| Subject Alternative Name: DNS:arkime.lab.local, DNS:arkime, IP Address:192.168.0.50
+| Issuer: commonName=IntermediateCA/organizationName=EnterpriseLab/stateOrProvinceName=Lab/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-08-15T00:20:04
+| Not valid after:  2027-11-18T00:20:04
+| MD5:   56ef:4f8c:0011:dcfe:5dcd:a7c4:4b5a:65fc
+|_SHA-1: 2bb5:6ccf:bde1:b1cb:ed93:5947:354b:22d1:d4fe:b0c2
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, Help, Kerberos, RPCCheck, SSLSessionReq, TLSSessionReq, TerminalServerCookie, X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|   FourOhFourRequest: 
+|     HTTP/1.1 401 Unauthorized
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1; mode=block
+|     WWW-Authenticate: Digest realm="Moloch", nonce="RUZzibHFCZ1TpfQJHmxOnM6otLRdbg1d", qop="auth"
+|     Date: Mon, 18 Aug 2025 03:40:03 GMT
+|     Connection: close
+|     Unauthorized
+|   GetRequest: 
+|     HTTP/1.1 401 Unauthorized
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1; mode=block
+|     WWW-Authenticate: Digest realm="Moloch", nonce="hk5Iv2P4J6LBcKTcjM79ioxSJ1sEGJmr", qop="auth"
+|     Date: Mon, 18 Aug 2025 03:40:03 GMT
+|     Connection: close
+|     Unauthorized
+|   HTTPOptions: 
+|     HTTP/1.1 401 Unauthorized
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1; mode=block
+|     WWW-Authenticate: Digest realm="Moloch", nonce="4z6hWN4GfexZOqNURy2CjnXMvyGQtNi7", qop="auth"
+|     Date: Mon, 18 Aug 2025 03:40:03 GMT
+|     Connection: close
+|     Unauthorized
+|   RTSPRequest: 
+|     HTTP/1.1 401 Unauthorized
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1; mode=block
+|     WWW-Authenticate: Digest realm="Moloch", nonce="3QfrHyNSsX11tMjcSAenz0Q1yWLCW5cn", qop="auth"
+|     Date: Mon, 18 Aug 2025 03:40:03 GMT
+|     Connection: close
+|_    Unauthorized
+8443/tcp closed https-alt
+9200/tcp open   ssl/rtsp
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (secp256r1) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 4096) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 4096) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 4096) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 4096) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 4096) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 4096) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|     warnings: 
+|       Key exchange (secp256r1) of lower strength than certificate key
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|     cipher preference: server
+|_  least strength: A
+| ssl-cert: Subject: commonName=regserver
+| Subject Alternative Name: IP Address:FD79:B690:3D58:5DA1:4023:94FF:FE4A:762, IP Address:192.168.64.10, IP Address:0:0:0:0:0:0:0:1, IP Address:127.0.0.1, IP Address:FE80:0:0:0:4023:94FF:FE4A:762, DNS:localhost, DNS:regserver
+| Issuer: commonName=Elasticsearch security auto-configuration HTTP CA
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-06-22T03:45:40
+| Not valid after:  2027-06-22T03:45:40
+| MD5:   6ca6:9f2a:ea4b:9508:f8db:065d:4ce5:872d
+|_SHA-1: b7a8:6dad:0079:59a1:f49a:1ae7:7e2a:34b5:9212:6a9b
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 401 Unauthorized
+|     WWW-Authenticate: Basic realm="security" charset="UTF-8"
+|     WWW-Authenticate: Bearer realm="security"
+|     WWW-Authenticate: ApiKey
+|     content-type: application/json
+|     content-length: 529
+|     {"error":{"root_cause":[{"type":"security_exception","reason":"missing authentication credentials for REST request [/nice%20ports%2C/Tri%6Eity.txt%2ebak]","header":{"WWW-Authenticate":["Basic realm="security" charset="UTF-8"","Bearer realm="security"","ApiKey"]}}],"type":"security_exception","reason":"missing authentication credentials for REST request [/nice%20ports%2C/Tri%6Eity.txt%2ebak]","header":{"WWW-Authenticate":["Basic realm="security" charset="UTF-8"","Bearer realm="security"","ApiKey"]}},"status":401}
+|   GetRequest: 
+|     HTTP/1.0 401 Unauthorized
+|     WWW-Authenticate: Basic realm="security" charset="UTF-8"
+|     WWW-Authenticate: Bearer realm="security"
+|     WWW-Authenticate: ApiKey
+|     content-type: application/json
+|     content-length: 459
+|     {"error":{"root_cause":[{"type":"security_exception","reason":"missing authentication credentials for REST request [/]","header":{"WWW-Authenticate":["Basic realm="security" charset="UTF-8"","Bearer realm="security"","ApiKey"]}}],"type":"security_exception","reason":"missing authentication credentials for REST request [/]","header":{"WWW-Authenticate":["Basic realm="security" charset="UTF-8"","Bearer realm="security"","ApiKey"]}},"status":401}
+|   HTTPOptions: 
+|     HTTP/1.0 200 OK
+|     Allow: GET,DELETE,HEAD
+|     X-elastic-product: Elasticsearch
+|     content-type: text/plain; charset=UTF-8
+|     content-length: 0
+|   RTSPRequest: 
+|     RTSP/1.0 400 Bad Request
+|     X-elastic-product: Elasticsearch
+|     content-type: application/json
+|     content-length: 221
+|_    {"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"Unexpected http protocol version: RTSP/1.0"}],"type":"illegal_argument_exception","reason":"Unexpected http protocol version: RTSP/1.0"},"status":400}
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8005-TCP:V=7.94SVN%T=SSL%I=7%D=8/18%Time=68A2A093%P=aarch64-unknown
+SF:-linux-gnu%r(GetRequest,F8,"HTTP/1\.1\x20401\x20Unauthorized\r\nX-Frame
+SF:-Options:\x20DENY\r\nX-XSS-Protection:\x201;\x20mode=block\r\nWWW-Authe
+SF:nticate:\x20Digest\x20realm=\"Moloch\",\x20nonce=\"hk5Iv2P4J6LBcKTcjM79
+SF:ioxSJ1sEGJmr\",\x20qop=\"auth\"\r\nDate:\x20Mon,\x2018\x20Aug\x202025\x
+SF:2003:40:03\x20GMT\r\nConnection:\x20close\r\n\r\nUnauthorized")%r(HTTPO
+SF:ptions,F8,"HTTP/1\.1\x20401\x20Unauthorized\r\nX-Frame-Options:\x20DENY
+SF:\r\nX-XSS-Protection:\x201;\x20mode=block\r\nWWW-Authenticate:\x20Diges
+SF:t\x20realm=\"Moloch\",\x20nonce=\"4z6hWN4GfexZOqNURy2CjnXMvyGQtNi7\",\x
+SF:20qop=\"auth\"\r\nDate:\x20Mon,\x2018\x20Aug\x202025\x2003:40:03\x20GMT
+SF:\r\nConnection:\x20close\r\n\r\nUnauthorized")%r(RTSPRequest,F8,"HTTP/1
+SF:\.1\x20401\x20Unauthorized\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protect
+SF:ion:\x201;\x20mode=block\r\nWWW-Authenticate:\x20Digest\x20realm=\"Molo
+SF:ch\",\x20nonce=\"3QfrHyNSsX11tMjcSAenz0Q1yWLCW5cn\",\x20qop=\"auth\"\r\
+SF:nDate:\x20Mon,\x2018\x20Aug\x202025\x2003:40:03\x20GMT\r\nConnection:\x
+SF:20close\r\n\r\nUnauthorized")%r(RPCCheck,2F,"HTTP/1\.1\x20400\x20Bad\x2
+SF:0Request\r\nConnection:\x20close\r\n\r\n")%r(DNSStatusRequestTCP,2F,"HT
+SF:TP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(He
+SF:lp,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r
+SF:\n")%r(SSLSessionReq,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnecti
+SF:on:\x20close\r\n\r\n")%r(TerminalServerCookie,2F,"HTTP/1\.1\x20400\x20B
+SF:ad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(TLSSessionReq,2F,"HTT
+SF:P/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(Ker
+SF:beros,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\
+SF:n\r\n")%r(X11Probe,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection
+SF::\x20close\r\n\r\n")%r(FourOhFourRequest,F8,"HTTP/1\.1\x20401\x20Unauth
+SF:orized\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x201;\x20mode=b
+SF:lock\r\nWWW-Authenticate:\x20Digest\x20realm=\"Moloch\",\x20nonce=\"RUZ
+SF:zibHFCZ1TpfQJHmxOnM6otLRdbg1d\",\x20qop=\"auth\"\r\nDate:\x20Mon,\x2018
+SF:\x20Aug\x202025\x2003:40:03\x20GMT\r\nConnection:\x20close\r\n\r\nUnaut
+SF:horized");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9200-TCP:V=7.94SVN%T=SSL%I=7%D=8/18%Time=68A2A092%P=aarch64-unknown
+SF:-linux-gnu%r(GetRequest,29C,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Au
+SF:thenticate:\x20Basic\x20realm=\"security\"\x20charset=\"UTF-8\"\r\nWWW-
+SF:Authenticate:\x20Bearer\x20realm=\"security\"\r\nWWW-Authenticate:\x20A
+SF:piKey\r\ncontent-type:\x20application/json\r\ncontent-length:\x20459\r\
+SF:n\r\n{\"error\":{\"root_cause\":\[{\"type\":\"security_exception\",\"re
+SF:ason\":\"missing\x20authentication\x20credentials\x20for\x20REST\x20req
+SF:uest\x20\[/\]\",\"header\":{\"WWW-Authenticate\":\[\"Basic\x20realm=\\\
+SF:"security\\\"\x20charset=\\\"UTF-8\\\"\",\"Bearer\x20realm=\\\"security
+SF:\\\"\",\"ApiKey\"\]}}\],\"type\":\"security_exception\",\"reason\":\"mi
+SF:ssing\x20authentication\x20credentials\x20for\x20REST\x20request\x20\[/
+SF:\]\",\"header\":{\"WWW-Authenticate\":\[\"Basic\x20realm=\\\"security\\
+SF:\"\x20charset=\\\"UTF-8\\\"\",\"Bearer\x20realm=\\\"security\\\"\",\"Ap
+SF:iKey\"\]}},\"status\":401}")%r(HTTPOptions,89,"HTTP/1\.0\x20200\x20OK\r
+SF:\nAllow:\x20GET,DELETE,HEAD\r\nX-elastic-product:\x20Elasticsearch\r\nc
+SF:ontent-type:\x20text/plain;\x20charset=UTF-8\r\ncontent-length:\x200\r\
+SF:n\r\n")%r(RTSPRequest,150,"RTSP/1\.0\x20400\x20Bad\x20Request\r\nX-elas
+SF:tic-product:\x20Elasticsearch\r\ncontent-type:\x20application/json\r\nc
+SF:ontent-length:\x20221\r\n\r\n{\"error\":{\"root_cause\":\[{\"type\":\"i
+SF:llegal_argument_exception\",\"reason\":\"Unexpected\x20http\x20protocol
+SF:\x20version:\x20RTSP/1\.0\"}\],\"type\":\"illegal_argument_exception\",
+SF:\"reason\":\"Unexpected\x20http\x20protocol\x20version:\x20RTSP/1\.0\"}
+SF:,\"status\":400}")%r(FourOhFourRequest,2E2,"HTTP/1\.0\x20401\x20Unautho
+SF:rized\r\nWWW-Authenticate:\x20Basic\x20realm=\"security\"\x20charset=\"
+SF:UTF-8\"\r\nWWW-Authenticate:\x20Bearer\x20realm=\"security\"\r\nWWW-Aut
+SF:henticate:\x20ApiKey\r\ncontent-type:\x20application/json\r\ncontent-le
+SF:ngth:\x20529\r\n\r\n{\"error\":{\"root_cause\":\[{\"type\":\"security_e
+SF:xception\",\"reason\":\"missing\x20authentication\x20credentials\x20for
+SF:\x20REST\x20request\x20\[/nice%20ports%2C/Tri%6Eity\.txt%2ebak\]\",\"he
+SF:ader\":{\"WWW-Authenticate\":\[\"Basic\x20realm=\\\"security\\\"\x20cha
+SF:rset=\\\"UTF-8\\\"\",\"Bearer\x20realm=\\\"security\\\"\",\"ApiKey\"\]}
+SF:}\],\"type\":\"security_exception\",\"reason\":\"missing\x20authenticat
+SF:ion\x20credentials\x20for\x20REST\x20request\x20\[/nice%20ports%2C/Tri%
+SF:6Eity\.txt%2ebak\]\",\"header\":{\"WWW-Authenticate\":\[\"Basic\x20real
+SF:m=\\\"security\\\"\x20charset=\\\"UTF-8\\\"\",\"Bearer\x20realm=\\\"sec
+SF:urity\\\"\",\"ApiKey\"\]}},\"status\":401}");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug 18 03:40:04 2025 -- 1 IP address (1 host up) scanned in 22.42 seconds

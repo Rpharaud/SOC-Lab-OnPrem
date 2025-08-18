@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Mon Aug 18 03:37:46 2025 as: nmap -sn -oA hosts_pingsweep 192.168.64.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oA hosts_pingsweep 192.168.64.0/24" start="1755488266" startstr="Mon Aug 18 03:37:46 2025" version="7.94SVN" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.64.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="_gateway" type="PTR"/>
+</hostnames>
+<times srtt="1063" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.64.10" addrtype="ipv4"/>
+<hostnames>
+<hostname name="regserver" type="PTR"/>
+</hostnames>
+<times srtt="80" rttvar="2829" to="100000"/>
+</host>
+<runstats><finished time="1755488269" timestr="Mon Aug 18 03:37:49 2025" summary="Nmap done at Mon Aug 18 03:37:49 2025; 256 IP addresses (2 hosts up) scanned in 3.03 seconds" elapsed="3.03" exit="success"/><hosts up="2" down="254" total="256"/>
+</runstats>
+</nmaprun>
